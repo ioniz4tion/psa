@@ -8265,3 +8265,42 @@ DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (cal
 DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
   Rendered abouts/index.html.erb within layouts/application (19.5ms)
 Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.5ms)
+  [1m[36mAdmin Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "admins" LIMIT 1[0m
+  [1m[35mAbout Exists (0.2ms)[0m  SELECT  1 AS one FROM "abouts" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "admins"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "admins"
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "abouts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "abouts"[0m
+  [1m[35mAbout Load (0.1ms)[0m  SELECT  "abouts".* FROM "abouts" LIMIT 4 OFFSET 0
+  [1m[36m (5008.4ms)[0m  [1mDROP DATABASE IF EXISTS "psa_development"[0m
+PG::ObjectInUse: ERROR:  database "psa_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "psa_development"
+  [1m[35m (214.6ms)[0m  DROP DATABASE IF EXISTS "psa_test"
+  [1m[36m (1.2ms)[0m  [1mCREATE DATABASE "psa_development" ENCODING = 'unicode'[0m
+PG::DuplicateDatabase: ERROR:  database "psa_development" already exists
+: CREATE DATABASE "psa_development" ENCODING = 'unicode'
+  [1m[35m (602.4ms)[0m  CREATE DATABASE "psa_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (8.2ms)[0m  DROP TABLE "abouts" CASCADE
+  [1m[36m (66.2ms)[0m  [1mCREATE TABLE "abouts" ("id" serial primary key, "image_file_name" character varying, "image_content_type" character varying, "image_file_size" integer, "image_updated_at" timestamp, "description" text, "name" character varying, "email" character varying, "phone" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (8.7ms)[0m  DROP TABLE "admins" CASCADE
+  [1m[36m (67.1ms)[0m  [1mCREATE TABLE "admins" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (39.8ms)[0m  CREATE UNIQUE INDEX  "index_admins_on_email" ON "admins" USING btree ("email")
+  [1m[36m (40.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_admins_on_reset_password_token" ON "admins" USING btree ("reset_password_token")[0m
+  [1m[35m (6.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (83.7ms)[0m  CREATE TABLE "abouts" ("id" serial primary key, "image_file_name" character varying, "image_content_type" character varying, "image_file_size" integer, "image_updated_at" timestamp, "description" text, "name" character varying, "email" character varying, "phone" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (73.3ms)[0m  [1mCREATE TABLE "admins" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (41.0ms)[0m  CREATE UNIQUE INDEX  "index_admins_on_email" ON "admins" USING btree ("email")
+  [1m[36m (38.3ms)[0m  [1mCREATE UNIQUE INDEX  "index_admins_on_reset_password_token" ON "admins" USING btree ("reset_password_token")[0m
+  [1m[35m (40.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (40.2ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151024184830')[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151024182754')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mAdmin Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = 'maxwelle.1122@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
