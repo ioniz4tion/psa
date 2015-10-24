@@ -22,32 +22,45 @@
 
 	<body>
 
-		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/home"><img src="/assets/logo.png"><span>Matt Would Go</span></a>
-				</div>
+		<div id="top-bar"></div>
 
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li id="home"><a>Home</a></li>
-						<li id="matt-link"><a>Matt</a></li>
-						<li id="eddie-link"><a>Eddie</a></li>
-						<li id="buck-link"><a>Support</a></li>
-						<li id="photo-link"><a href="/photos">Photos</a></li>
-						<li id="video-link"><a href="/videos">Videos</a></li>
-					</ul>
+		<div class="container">
+
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- <a class="navbar-brand" href="/home"><span>Wise Water</span></a> -->
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</div>
 				</div>
+			</nav>
+
+			<div id="main">
+
+				<%= yield %>
+
 			</div>
-		</nav>
 
-		<%= yield %>
+			<footer>
+
+			</footer>
+
+		</div>
 
 	</body>
 
