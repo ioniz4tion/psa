@@ -8151,3 +8151,117 @@ ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
   Rendered /home/zack/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /home/zack/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
   Rendered /home/zack/.rvm/gems/ruby-2.1.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (19.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-10-24 12:15:27 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/zack/rails/psa/app/assets/fonts/fonts.css.scss to /home/zack/rails/psa/app/assets/fonts/fonts.scss. (called from _app_views_layouts_application_html_erb___2861172632994164773_70321274364140 at /home/zack/rails/psa/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/zack/rails/psa/app/assets/fonts/fonts.css.scss to /home/zack/rails/psa/app/assets/fonts/fonts.scss. (called from _app_views_layouts_application_html_erb___2861172632994164773_70321274364140 at /home/zack/rails/psa/app/views/layouts/application.html.erb:10)
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 1065ms (Views: 1063.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 4]]
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/_bootstrap.self-e5bcb1197d2ca1047e4884869348a5bee90c1a3305bc8f15952ad648d8b4b066.css?body=1" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/assets/custom/_body.self-3cbdd2ac61a81d6c1488b093282f20d9cde5181af6752e0ceff53a79360fcfc6.css?body=1" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/assets/custom/_container.self-de40ed0d1baeae9820ddc8851d2911260578b1565002e55975021f93297483c3.css?body=1" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/assets/custom/_nav.self-545858f1ad37dc42b10cab265c01484ea2cbba7cebcd57c1074eea205d787920.css?body=1" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/assets/custom/_topBar.self-c828e60a429c291dba249c1055fcb3c1d44e73088fdbe33a25d88ad733dd16cd.css?body=1" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/assets/bebas/bebas-49ec8ca95b948efb0f6e9eb39950089a6610d16e2f5de4355aa0e18d453bdc5f.woff" for 127.0.0.1 at 2015-10-24 12:15:28 -0700
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-24 12:15:37 -0700
+Processing by AboutsController#index as HTML
+  [1m[36mAbout Load (0.2ms)[0m  [1mSELECT "abouts".* FROM "abouts"  ORDER BY "abouts"."name" ASC[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 4]]
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+  Rendered abouts/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-24 12:15:45 -0700
+Processing by AboutsController#index as HTML
+  [1m[36mAbout Load (0.3ms)[0m  [1mSELECT "abouts".* FROM "abouts"  ORDER BY "abouts"."name" ASC[0m
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 4]]
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :path is deprecated in favor of :url . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (called from bip at /home/zack/rails/psa/app/helpers/application_helper.rb:4)
+  Rendered abouts/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.5ms)
