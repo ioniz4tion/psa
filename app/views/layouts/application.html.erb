@@ -21,6 +21,10 @@
 	</head>
 
 	<body>
+  <!--THESE ARE FOR THE USER ALERTS. PUT THEM SOMEWHERE PLZ AND THANKS.-->
+	<p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
 			<div class="container-fluid">
@@ -48,6 +52,14 @@
 		</nav>
 
 		<%= yield %>
+
+		<%= link_to 'About Us', '/about' %><span>|</span>
+
+		<% if admin_signed_in? %>
+				<%= link_to 'Logout', destroy_admin_session_path, method: :delete %>
+			<% else %>
+				<%= link_to 'Login', admin_session_path %>
+			<% end %>
 
 	</body>
 
