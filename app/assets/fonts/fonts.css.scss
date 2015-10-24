@@ -6,3 +6,12 @@
       font-url('bootstrap/glyphicons-halflings-regular.ttf') format('truetype'),
       font-url('bootstrap/glyphicons-halflings-regular.svg') format('svg');
 }
+
+@font-face {
+  font-family: 'Bebas';
+  src: font-url('bebas/bebas.eot');
+  src: font-url('bebas/bebas.eot?iefix') format('embedded-opentype'),
+      font-url('bebas/bebas.woff') format('woff'),
+      font-url('bebas/bebas.ttf') format('truetype'),
+      font-url('bebas/bebas.svg') format('svg');
+}
