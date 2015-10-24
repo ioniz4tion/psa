@@ -6,19 +6,49 @@
 
 	  <title>Psa</title>
 
-	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <!-- import stylesheets -->
+	  <%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
+		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
+		<!-- import javascripts -->
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 	  <%= csrf_meta_tags %>
+
+	  <!-- ensure proper mobile scaling -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
 
 	<body>
 
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/home"><img src="/assets/logo.png"><span>Matt Would Go</span></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li id="home"><a>Home</a></li>
+						<li id="matt-link"><a>Matt</a></li>
+						<li id="eddie-link"><a>Eddie</a></li>
+						<li id="buck-link"><a>Support</a></li>
+						<li id="photo-link"><a href="/photos">Photos</a></li>
+						<li id="video-link"><a href="/videos">Videos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
 		<%= yield %>
 
 	</body>
-	
+
 </html>
