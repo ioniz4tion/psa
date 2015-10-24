@@ -15,8 +15,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'jquery-turbolinks'
+gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
+gem 'jquery-turbolinks', '~> 0.2.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -25,12 +25,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # login and authentication
-gem 'devise'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 
 # cms
-gem 'best_in_place'
-gem 'paperclip'
-gem 'seed_dump'
+gem 'best_in_place', '~> 3.0', '>= 3.0.3'
+gem 'paperclip', '~> 4.3', '>= 4.3.1'
+gem 'seed_dump', '~> 3.2', '>= 3.2.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
