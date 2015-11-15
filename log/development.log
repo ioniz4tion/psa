@@ -16577,3 +16577,9 @@ DEPRECATION WARNING: [Best_in_place] :type is deprecated in favor of :as . (call
   Rendered abouts/index.html.erb within layouts/application (19.1ms)
 Completed 200 OK in 103ms (Views: 99.3ms | ActiveRecord: 1.5ms)
 >>>>>>> 1373588bb2945fd50d993d7d2a3da358329ccdc5
+Warning. Error encountered while saving cache c4dc2a43e2268ea4d9fcdcbe161840086985c24b/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/iqover9000/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/rake/task.rb:240)
+Warning. Error encountered while saving cache c4dc2a43e2268ea4d9fcdcbe161840086985c24b/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/iqover9000/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/rake/task.rb:240)

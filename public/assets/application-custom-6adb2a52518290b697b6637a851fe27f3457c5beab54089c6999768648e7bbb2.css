@@ -1,0 +1,71 @@
+/**
+ *
+ *
+ *
+ *
+ */
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_body.sass */
+body {
+  font-family: "Bebas";
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_container.sass */
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer {
+  width: 100%;
+  background: blue;
+}
+/* line 5, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer div {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+  border-left: 1px solid green;
+  border-right: 1px solid red;
+}
+/* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav {
+  padding-top: 25px;
+  background: transparent !important;
+}
+/* line 7, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav > .container-fluid,
+nav .collapse {
+  padding: 0;
+  position: relative;
+}
+/* line 12, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav ul {
+  margin-right: 0 !important;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 18, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav ul li {
+  margin: 0 10px;
+}
+/* line 21, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav ul li:last-child {
+  margin-right: 0;
+}
+/* line 24, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav ul a {
+  padding: 20px 50px !important;
+  background: #000;
+  color: #fff;
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_topBar.sass */
+#top-bar {
+  width: 100%;
+  height: 25px;
+  background: red;
+}
