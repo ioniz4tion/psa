@@ -63,6 +63,7 @@
 
 				<div>
 					<%= link_to 'About Us', '/about' %>
+					<%= link_to 'Credits', '/credits' %>
 					<a href="#">Site Map</a>
 					<% if admin_signed_in? %>
 						<%= link_to 'Logout', destroy_admin_session_path, method: :delete %>
@@ -80,7 +81,7 @@
 			</footer>
 
 		</div>
-
+		
 	</body>
 
 </html>
