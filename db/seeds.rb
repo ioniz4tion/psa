@@ -1,6 +1,6 @@
 Admin.create!([
   {email: "maxwelle.1122@gmail.com", password: "testtest"},
-  {email: "andy.john.jakubek@gmail.com", password: "testtest"},
+  {email: "kevin.wu.1@hotmail.com", password: "testtest"},
   {email: "pjpiedmont@gmail.com", password: "4tomiz4tion"},
   {email: "zackh1998@gmail.com", password: "testtest"}
 ])
