@@ -10,6 +10,8 @@
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
 		<!-- import javascripts -->
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
@@ -25,6 +27,9 @@
 	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 		<!-- <div id="top-bar"></div> -->
+		<% if current_page?(controller: 'application', action: 'index') %>
+			<%= render :partial => "templates/animation" %>
+		<% end %>
 
 		<div class="container">
 
@@ -38,7 +43,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<!-- <a class="navbar-brand" href="/home"><span>Wise Water</span></a> -->
-						<img src="http://placehold.it/150x150">
+						<%= image_tag("logo", size: "90x150") %>
 					</div>
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
