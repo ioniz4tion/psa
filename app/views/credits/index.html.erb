@@ -1,29 +1,26 @@
-<div class="content">
+<div id="credits">
 
-<% @credits.order(:name).each do |credit| %>
+	<h1>Credits</h1>
 
- <h1><%= bip(credit, :name, :textarea) %></h1>
+	<% @credits.order(:name).each do |credit| %>
 
-  <ul>
+		<div>
 
-    <li class="item">
-      <div>
+			<div class="col-sm-3">
+				<%= image_tag(credit.image.url) %>
+			</div>
 
-        <div class="about-img">
-          <%= image_tag(credit.image.url) %>
-        </div>
+			<%= cms_upload(credit, :image, "Upload Image") %>
 
-        <%= cms_upload(credit, :image, "Upload Image") %>
+			<div class="col-sm-9">
+				<h2><%= bip(credit, :name, :textarea) %></h2>
+				<p><%= bip(credit, :description, :textarea) %></p>
+			</div>
 
-        <div class="description about-description">
-          <p><%= bip(credit, :description, :textarea) %></p>
-        </div>
+		</div>
 
-      </div>
-    </li>
+		<hr>
 
-  </ul>
-
-<% end %>
+	<% end %>
 
 </div>

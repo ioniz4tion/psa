@@ -1,63 +1,53 @@
-<div class="content">
+<div id="abouts">
 
-  <h1>About <span>Us</span></h1>
+	<h1>About Us</h1>
 
-  <ul>
+	<% @abouts.order(:name).each do |about| %>
 
-    <% @abouts.order(:name).each do |about| %>
+		<div>
 
-    <li class="item">
-      <div>
+			<div  class="col-sm-3">
+				<%= image_tag(about.image.url) %>
+			</div>
 
-        <div class="about-img">
-          <%= image_tag(about.image.url) %>
-        </div>
+			<%= cms_upload(about, :image, "Upload Portrait") %>
 
-        <%= cms_upload(about, :image, "Upload Portrait") %>
+			<div class="col-sm-9">
+				<h2><%= bip(about, :name) %></h2>
+				<p><%= bip(about, :description, :textarea) %></p>
 
-        <div class="description about-description">
-          <h2><%= bip(about, :name) %></h2>
-          <p><%= bip(about, :description, :textarea) %></p>
-        </div>
+				<table>
+					<tr>
 
-      </div>
+						<td>
+							<span class="glyphicon glyphicon-envelope"></span>
+							<div>
+								<a href="mailto:<%= about.email %>"><%= bip(about, :email) %></a>
+							</div>
+						</td>
 
-      <div>
+						<td>
+							<span class="glyphicon glyphicon-earphone"></span>
+							<div>
+								<p><%= bip(about, :phone) %></p>
+							</div>
+						</td>
 
-        <table>
+					</tr>
+				</table>
 
-          <tr>
+			</div>
 
-            <td>
-              <span class="eleganticon icon_mail_alt"></span>
-              <div>
-                <a href="mailto:<%= about.email %>"><%= bip(about, :email) %></a>
-              </div>
-            </td>
+			<div>
+				<%= cms_delete(about) %>
+			</div>
 
-            <td>
-              <span class="eleganticon icon_phone"></span>
-              <div>
-                <p><%= bip(about, :phone) %></p>
-              </div>
-            </td>
+		</div>
 
-          </tr>
+		<hr>
 
-        </table>
+	<% end %>
 
-      </div>
-
-      <%= cms_delete(about) %>
-
-    </li>
-
-    <hr>
-
-    <% end %>   
-
-  </ul>
-
-  <%= cms_add(abouts_path, "Add Person") %>
+	<%= cms_add(abouts_path, "Add Person") %>
 
 </div>

@@ -4,27 +4,27 @@
 
 	<head>
 
-	  <title>H2-Whoa</title>
+		<title>H2-Whoa</title>
 
-	  <!-- import stylesheets -->
-	  <%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
+		<!-- import stylesheets -->
+		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
 		<!-- import javascripts -->
-	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
-	  <%= csrf_meta_tags %>
+		<%= csrf_meta_tags %>
 
-	  <!-- ensure proper mobile scaling -->
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- ensure proper mobile scaling -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
 
 	<body>
-  <!--THESE ARE FOR THE USER ALERTS. PUT THEM SOMEWHERE PLZ AND THANKS.-->
-  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<!--THESE ARE FOR THE USER ALERTS. PUT THEM SOMEWHERE PLZ AND THANKS.-->
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-		<div id="top-bar"></div>
+		<!-- <div id="top-bar"></div> -->
 
 		<div class="container">
 
@@ -43,8 +43,8 @@
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
+							<li><a href="#">Conservation Tips</a></li>
+							<li><a href="#">Videos</a></li>
 							<li><a href="#">Link</a></li>
 							<li><a href="#">Link</a></li>
 							<li><a href="#">Link</a></li>
@@ -59,29 +59,35 @@
 
 			</div>
 
-			<footer>
+			<footer class="row">
 
-				<div>
-					<%= link_to 'About Us', '/about' %>
-					<%= link_to 'Credits', '/credits' %>
-					<a href="#">Site Map</a>
+				<div class="col-sm-3">
+					<div><%= link_to 'About Us', '/about' %></div>
+					<div><%= link_to 'Credits', '/credits' %></div>
+					<!-- <a href="#">Site Map</a> -->
 					<% if admin_signed_in? %>
-						<%= link_to 'Logout', destroy_admin_session_path, method: :delete %>
+						<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
 					<% else %>
-						<%= link_to 'Admin Login', admin_session_path %>
+						<div><%= link_to 'Admin Login', admin_session_path %></div>
 					<% end %>
 				</div>
 
-				<div>
-					<a href="#">Contact Us</a>
+				<div class="col-sm-3">
+					<div><a href="#">Contact Us</a></div>
 				</div>
 
-				<div></div>
+				<div class="col-sm-6">
+					<div><span>Sign up below for email updates:</span></div>
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+						<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
+					</div>
+				</div>
 
 			</footer>
 
 		</div>
-		
+
 	</body>
 
 </html>
