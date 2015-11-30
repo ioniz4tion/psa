@@ -6,11 +6,10 @@
 
 		<div>
 
-			<div  class="col-sm-3">
+			<div class="col-sm-3">
 				<%= image_tag(about.image.url) %>
+				<%= cms_upload(about, :image, "Upload Portrait") %>
 			</div>
-
-			<%= cms_upload(about, :image, "Upload Portrait") %>
 
 			<div class="col-sm-9">
 				<h2><%= bip(about, :name) %></h2>

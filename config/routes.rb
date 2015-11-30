@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/home' => 'application#index'
   resources :abouts
   resources :about, controller: 'abouts'
+  get '/contact' => 'application#contact'
 
   get '/facts' => 'facts#facts'
   get '/diy' => 'diy#diy'
