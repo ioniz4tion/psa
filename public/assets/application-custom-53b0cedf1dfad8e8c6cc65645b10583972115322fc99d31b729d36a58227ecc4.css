@@ -1,0 +1,103 @@
+/**
+ *
+ *
+ *
+ *
+ */
+/* line 1, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+nav {
+  font-family: 'robotoregular';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  margin: 0px;
+  padding-right: 50px;
+  background-color: transparent !important;
+}
+/* line 12, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+nav img {
+  margin-left: 70px;
+}
+
+/* line 17, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.navbar-header > a {
+  display: block;
+}
+
+/* line 21, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+a {
+  font-size: 24px;
+  color: #fff !important;
+  -ms-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+}
+
+/* line 31, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 36, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.dropdown-menu {
+  background-color: #66c;
+}
+
+/* line 40, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.carousel-inner {
+  height: 900px;
+}
+
+/* line 44, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.earth-image-extension {
+  background-color: #000;
+  text-align: center;
+}
+
+/* line 49, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.facts {
+  height: 95px;
+  background-color: #555;
+}
+
+/* line 54, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.info-box {
+  position: absolute;
+  top: 600px;
+  left: 140px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 10px;
+}
+/* line 64, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.info-box p {
+  font-size: 20px;
+}
+
+/* line 71, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.learn-more {
+  top: 30px;
+  left: 4px;
+  width: 170px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #44f;
+  text-align: center;
+  vertical-align: center;
+}
+/* line 81, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.learn-more span {
+  color: white;
+  vertical-align: center;
+  font-size: 24px;
+}
+
+/* line 89, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+footer {
+  width: 100%;
+}
