@@ -1,0 +1,19 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-30 13:18:55 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (41.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 520ms (Views: 505.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom/partials/_factBoxes.self-15c0d64bbeb757bf113f2fd2aa26ac0d18c292a8144ec337c9d46de667b842f7.css?body=1" for 127.0.0.1 at 2015-11-30 13:18:57 -0800
+
+
+Started GET "/assets/water-earth.jpg" for 127.0.0.1 at 2015-11-30 13:18:57 -0800
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2015-11-30 13:18:57 -0800
+
+
+Started GET "/assets/water-drop.jpg" for 127.0.0.1 at 2015-11-30 13:18:57 -0800
