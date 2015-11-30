@@ -1,0 +1,909 @@
+/**
+ *
+ *
+ *
+ *
+ */
+/* line 1, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 6, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 14, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.dots, .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38, .st39, .st40, .st41, .st42, .st43, .st44, .st45, .st46, .st47, .st48, .st49, .st50, .st51, .st52, .st53, .st54, .st55, .st56, .st57, .st58, .st59, .st60 {
+  position: absolute;
+}
+
+/* line 20, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.animation {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 26, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.logo-container {
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  overflow: visible;
+  position: relative;
+}
+
+/* line 34, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.logo {
+  position: absolute;
+  left: -160px;
+  top: -250px;
+}
+
+/* line 57, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.animation {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 62, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.fade-away {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #555;
+  z-index: -1;
+}
+
+/* line 71, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st0 {
+  left: 59px;
+  top: 297px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #4A70B6;
+}
+
+/* line 78, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st1 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 18px;
+  top: 253px;
+}
+
+/* line 85, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st2 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #8CC6EC;
+  left: 225px;
+  top: 262px;
+}
+
+/* line 92, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st3 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 2px;
+  top: 306px;
+}
+
+/* line 99, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st4 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #278BCA;
+  left: 144px;
+  top: 4px;
+}
+
+/* line 106, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st5 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  background: #23A9E1;
+  left: 210px;
+  top: 359px;
+}
+
+/* line 113, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st6 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #ADD25F;
+  left: 4px;
+  top: 359px;
+}
+
+/* line 120, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st7 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #8CC6EC;
+  left: 162px;
+  top: 166px;
+}
+
+/* line 127, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st8 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #23A9E1;
+  left: 181px;
+  top: 377px;
+}
+
+/* line 134, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st9 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: #ADD25F;
+  left: 82px;
+  top: 360px;
+}
+
+/* line 141, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st10 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #4A70B6;
+  left: 94px;
+  top: 321px;
+}
+
+/* line 148, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st11 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ADD25F;
+  left: 64px;
+  top: 364px;
+}
+
+/* line 155, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st12 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #8CC6EC;
+  left: 122px;
+  top: 201px;
+}
+
+/* line 162, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st13 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  background: #23A9E1;
+  left: 157px;
+  top: 276px;
+}
+
+/* line 169, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st14 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #278BCA;
+  left: 118px;
+  top: 124px;
+}
+
+/* line 176, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st15 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #ADD25F;
+  left: 204px;
+  top: 436px;
+}
+
+/* line 183, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st16 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 87px;
+  top: 267px;
+}
+
+/* line 190, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st17 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background: #23A9E1;
+  left: 260px;
+  top: 278px;
+}
+
+/* line 197, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st18 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #278BCA;
+  left: 152px;
+  top: 21px;
+}
+
+/* line 204, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st19 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: #278BCA;
+  left: 93px;
+  top: 196px;
+}
+
+/* line 211, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st20 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 94px;
+  height: 94px;
+  background: #ADD25F;
+  left: 105px;
+  top: 395px;
+}
+
+/* line 218, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st21 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #23A9E1;
+  left: 132px;
+  top: 305px;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 228, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st22 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #8CC6EC;
+  left: 214px;
+  top: 152px;
+}
+
+/* line 235, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st23 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #4A70B6;
+  left: 57px;
+  top: 328px;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 245, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st24 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background: #23A9E1;
+  left: 188px;
+  top: 329px;
+  width: 41px;
+  height: 41px;
+}
+
+/* line 255, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st25 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #23A9E1;
+  left: 251px;
+  top: 311px;
+  width: 48px;
+  height: 48px;
+}
+
+/* line 265, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st26 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ADD25F;
+  left: 198px;
+  top: 413px;
+  width: 15px;
+  height: 15px;
+}
+
+/* line 275, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st27 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #278BCA;
+  left: 114px;
+  top: 67px;
+  width: 22px;
+  height: 22px;
+}
+
+/* line 285, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st28 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ADD25F;
+  left: 37px;
+  top: 356px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 295, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st29 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background: #ADD25F;
+  left: 17px;
+  top: 377px;
+  width: 65px;
+  height: 65px;
+}
+
+/* line 305, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st30 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #8CC6EC;
+  left: 130px;
+  top: 240px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 315, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st31 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #278BCA;
+  left: 166px;
+  top: 42px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 325, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st32 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #8CC6EC;
+  left: 216px;
+  top: 166px;
+  width: 26px;
+  height: 26px;
+}
+
+/* line 335, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st33 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #8CC6EC;
+  left: 201px;
+  top: 197px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 345, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st34 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #278BCA;
+  left: 58px;
+  top: 182px;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 355, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st35 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 139px;
+  top: 94px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 365, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st36 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background: #278BCA;
+  left: 112px;
+  top: 153px;
+  width: 41px;
+  height: 41px;
+}
+
+/* line 375, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st37 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 224px;
+  top: 199px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 385, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st38 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background: #8CC6EC;
+  left: 185px;
+  top: 163px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 395, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st39 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #ADD25F;
+  left: 64px;
+  top: 434px;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 405, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st40 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #278BCA;
+  left: 171px;
+  top: 58px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 415, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st41 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #278BCA;
+  left: 39px;
+  top: 213px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 425, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st42 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #8CC6EC;
+  left: 242px;
+  top: 235px;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 435, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st43 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #278BCA;
+  left: 143px;
+  top: 48px;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 445, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st44 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #278BCA;
+  left: 124px;
+  top: 42px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 455, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st45 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: #8CC6EC;
+  left: 148px;
+  top: 132px;
+  width: 29px;
+  height: 29px;
+}
+
+/* line 465, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st46 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ADD25F;
+  left: 85px;
+  top: 411px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 475, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st47 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background: #8CC6EC;
+  left: 161px;
+  top: 190px;
+  width: 37px;
+  height: 37px;
+}
+
+/* line 485, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st48 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  background: #23A9E1;
+  left: 214px;
+  top: 285px;
+  width: 43px;
+  height: 43px;
+}
+
+/* line 495, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st49 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #23A9E1;
+  left: 232px;
+  top: 334px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 505, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st50 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #278BCA;
+  left: 139px;
+  top: 75px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 515, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st51 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 57px;
+  height: 57px;
+  background: #23A9E1;
+  left: 127px;
+  top: 330px;
+  width: 57px;
+  height: 57px;
+}
+
+/* line 525, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st52 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #8CC6EC;
+  left: 179px;
+  top: 226px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 535, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st53 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #278BCA;
+  left: 77px;
+  top: 147px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 545, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st54 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 182px;
+  top: 123px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 555, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st55 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background: #4A70B6;
+  left: 73px;
+  top: 223px;
+  width: 44px;
+  height: 44px;
+}
+
+/* line 565, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st56 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #8CC6EC;
+  left: 178px;
+  top: 97px;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 575, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st57 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: #8CC6EC;
+  left: 170px;
+  top: 75px;
+  width: 21px;
+  height: 21px;
+}
+
+/* line 585, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st58 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: #278BCA;
+  left: 133px;
+  top: 22px;
+  width: 17px;
+  height: 17px;
+}
+
+/* line 595, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st59 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: #278BCA;
+  left: 105px;
+  top: 93px;
+  width: 29px;
+  height: 29px;
+}
+
+/* line 605, /home/zack/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st60 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #278BCA;
+  left: 93px;
+  top: 124px;
+  width: 20px;
+  height: 20px;
+}
+/* line 1, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+nav {
+  font-family: 'robotoregular';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  margin: 0px;
+  padding-right: 50px;
+  background-color: transparent !important;
+}
+/* line 12, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+nav img {
+  margin-left: 70px;
+}
+
+/* line 17, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.navbar-header > a {
+  display: block;
+}
+
+/* line 21, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+a {
+  font-size: 24px;
+  color: #fff !important;
+  -ms-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+}
+
+/* line 31, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 36, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.dropdown-menu {
+  background-color: #66c;
+}
+
+/* line 40, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.carousel-inner {
+  height: 900px;
+}
+
+/* line 44, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.earth-image-extension {
+  background-color: #000;
+  text-align: center;
+}
+
+/* line 49, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.facts {
+  height: 95px;
+  background-color: #555;
+}
+
+/* line 54, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.info-box {
+  position: absolute;
+  top: 600px;
+  left: 140px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10%;
+  background-color: #fff;
+  padding: 10px;
+}
+/* line 64, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.info-box p {
+  font-size: 20px;
+}
+
+/* line 71, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.learn-more {
+  top: 30px;
+  left: 4px;
+  width: 170px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #44f;
+  text-align: center;
+  vertical-align: center;
+}
+/* line 81, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+.learn-more span {
+  color: white;
+  vertical-align: center;
+  font-size: 24px;
+}
+
+/* line 89, /home/zack/rails/psa/app/assets/stylesheets/custom/nav.scss */
+footer {
+  width: 100%;
+}

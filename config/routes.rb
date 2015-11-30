@@ -11,6 +11,12 @@ Rails.application.routes.draw do
   resources :about, controller: 'abouts'
   get '/contact' => 'application#contact'
 
+  get '/facts' => 'facts#facts'
+  get '/diy' => 'diy#diy'
+  get '/why' => 'why#why'
+  get '/how' => 'how#how'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

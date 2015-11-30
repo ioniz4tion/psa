@@ -1,0 +1,614 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.dots {
+    position: absolute;    
+    //width: 0 !important;
+    // height: 0 !important;
+}
+
+.animation {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-container {
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    overflow: visible;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: -160px;
+    top: -250px;
+}
+
+$green: #ADD25F; 
+$dark-blue: #4A70B6;
+$cyan: #23A9E1;
+$blue: #278BCA;
+$light-blue: #8CC6EC;
+
+@mixin pseudo-dot($width,$color) {
+    
+        
+        border-radius: 50%;
+        display: inline-block;
+        width: $width;
+        height: $width;
+        background : $color;
+   
+}
+
+.animation {
+    width: 100%;
+    height: 100%;
+}
+
+.fade-away
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #555;
+    z-index: -1;
+}
+
+.st0
+{
+    @extend .dots;	
+		left : 59px;
+		top : 297px;
+    @include pseudo-dot(26px,$dark-blue);
+}
+.st1
+{
+	@extend .dots;
+    @include pseudo-dot(50px,$dark-blue);	
+	left : 18px;
+	top : 253px;
+}
+.st2
+{
+	@extend .dots;
+    @include pseudo-dot(16px,$light-blue);	
+	left : 225px;
+	top : 262px;
+}
+.st3
+{
+	@extend .dots;
+    @include pseudo-dot(50px,$dark-blue);	
+	left : 2px;
+	top : 306px;
+}
+.st4
+{
+	@extend .dots;
+    @include pseudo-dot(14px,$blue);	
+	left : 144px;
+	top : 4px;
+}
+.st5
+{
+	@extend .dots;
+    @include pseudo-dot(76px,$cyan);
+	left : 210px;
+	top : 359px;
+}
+.st6
+{
+	@extend .dots;
+    @include pseudo-dot(25px,$green);	
+	left : 4px;
+	top : 359px;
+}
+.st7
+{
+	@extend .dots;
+	@include pseudo-dot(18px,$light-blue);	
+	left : 162px;
+	top : 166px;
+}
+.st8
+{
+	@extend .dots;
+	@include pseudo-dot(26px,$cyan);	
+	left : 181px;
+	top : 377px;
+}
+.st9
+{
+	@extend .dots;
+    @include pseudo-dot(45px,$green);
+	left : 82px;
+	top : 360px;
+}
+.st10
+{
+	@extend .dots;
+	@include pseudo-dot(32px,$dark-blue);	
+	left : 94px;
+	top : 321px;
+}
+.st11
+{
+	@extend .dots;
+	@include pseudo-dot(15px,$green);	
+	left : 64px;
+	top : 364px;
+}
+.st12
+{
+	@extend .dots;
+	@include pseudo-dot(38px,$light-blue);	
+	left : 122px;
+	top : 201px;
+}
+.st13
+{
+	@extend .dots;
+	@include pseudo-dot(54px,$cyan);	
+	left : 157px;
+	top : 276px;
+}
+.st14
+{
+	@extend .dots;
+	@include pseudo-dot(24px,$blue);	
+	left : 118px;
+	top : 124px;
+}
+.st15
+{
+	@extend .dots;
+	@include pseudo-dot(36px,$green);	
+	left : 204px;
+	top : 436px;
+}
+.st16
+{
+	@extend .dots;
+	@include pseudo-dot(50px,$dark-blue);	
+	left : 87px;
+	top : 267px;
+}
+.st17
+{
+	@extend .dots;
+	@include pseudo-dot(31px,$cyan);	
+	left : 260px;
+	top : 278px;
+}
+.st18
+{
+	@extend .dots;
+	@include pseudo-dot(18px,$blue);	
+	left : 152px;
+	top : 21px;
+}
+.st19
+{
+	@extend .dots;
+	@include pseudo-dot(23px,$blue);	
+	left : 93px;
+	top : 196px;
+}
+.st20
+{
+	@extend .dots;
+	@include pseudo-dot(94px,$green);	
+	left : 105px;
+	top : 395px;
+}
+.st21
+{
+	@extend .dots;
+	@include pseudo-dot(25px,$cyan);
+	
+	left : 132px;
+	top : 305px;
+	width : 25px;
+	height : 25px;
+}
+.st22
+{
+	@extend .dots;
+	@include pseudo-dot(12px,$light-blue);
+	left : 214px;
+	top : 152px;
+}
+.st23
+{
+	@extend .dots;
+	@include pseudo-dot(32px,$dark-blue);
+	
+	left : 57px;
+	top : 328px;
+	width : 32px;
+	height : 32px;
+}
+.st24
+{
+	@extend .dots;
+	@include pseudo-dot(41px,$cyan);
+	
+	left : 188px;
+	top : 329px;
+	width : 41px;
+	height : 41px;
+}
+.st25
+{
+	@extend .dots;
+	@include pseudo-dot(48px,$cyan);
+	
+	left : 251px;
+	top : 311px;
+	width : 48px;
+	height : 48px;
+}
+.st26
+{
+	@extend .dots;
+	@include pseudo-dot(15px,$green);
+	
+	left : 198px;
+	top : 413px;
+	width : 15px;
+	height : 15px;
+}
+.st27
+{
+	@extend .dots;
+	@include pseudo-dot(22px,$blue);
+	
+	left : 114px;
+	top : 67px;
+	width : 22px;
+	height : 22px;
+}
+.st28
+{
+	@extend .dots;
+	@include pseudo-dot(18px,$green);
+	
+	left : 37px;
+	top : 356px;
+	width : 18px;
+	height : 18px;
+}
+.st29
+{
+	@extend .dots;
+	@include pseudo-dot(65px,$green);
+	
+	left : 17px;
+	top : 377px;
+	width : 65px;
+	height : 65px;
+}
+.st30
+{
+	@extend .dots;
+	@include pseudo-dot(40px,$light-blue);
+	
+	left : 130px;
+	top : 240px;
+	width : 40px;
+	height : 40px;
+}
+.st31
+{
+	@extend .dots;
+	@include pseudo-dot(13px,$blue);
+	
+	left : 166px;
+	top : 42px;
+	width : 13px;
+	height : 13px;
+}
+.st32
+{
+	@extend .dots;
+	@include pseudo-dot(26px,$light-blue);
+	
+	left : 216px;
+	top : 166px;
+	width : 26px;
+	height : 26px;
+}
+.st33
+{
+	@extend .dots;
+	@include pseudo-dot(19px,$light-blue);
+	
+	left : 201px;
+	top : 197px;
+	width : 19px;
+	height : 19px;
+}
+.st34
+{
+	@extend .dots;
+	@include pseudo-dot(30px,$blue);
+	
+	left : 58px;
+	top : 182px;
+	width : 30px;
+	height : 30px;
+}
+.st35
+{
+	@extend .dots;
+	@include pseudo-dot(34px,$light-blue);
+	
+	left : 139px;
+	top : 94px;
+	width : 34px;
+	height : 34px;
+}
+.st36
+{
+	@extend .dots;
+	@include pseudo-dot(41px,$blue);
+	
+	left : 112px;
+	top : 153px;
+	width : 41px;
+	height : 41px;
+}
+.st37
+{
+	@extend .dots;
+	@include pseudo-dot(34px,$light-blue);
+	
+	left : 224px;
+	top : 199px;
+	width : 34px;
+	height : 34px;
+}
+.st38
+{
+	@extend .dots;
+	@include pseudo-dot(27px,$light-blue);
+	
+	left : 185px;
+	top : 163px;
+	width : 27px;
+	height : 27px;
+}
+.st39
+{
+	@extend .dots;
+	@include pseudo-dot(38px,$green);
+	
+	left : 64px;
+	top : 434px;
+	width : 38px;
+	height : 38px;
+}
+.st40
+{
+	@extend .dots;
+	@include pseudo-dot(13px,$blue);
+	
+	left : 171px;
+	top : 58px;
+	width : 13px;
+	height : 13px;
+}
+.st41
+{
+	@extend .dots;
+	@include pseudo-dot(34px,$blue);
+	
+	left : 39px;
+	top : 213px;
+	width : 34px;
+	height : 34px;
+}
+.st42
+{
+	@extend .dots;
+	@include pseudo-dot(38px,$light-blue);
+	
+	left : 242px;
+	top : 235px;
+	width : 38px;
+	height : 38px;
+}
+.st43
+{
+	@extend .dots;
+	@include pseudo-dot(24px,$blue);
+	
+	left : 143px;
+	top : 48px;
+	width : 24px;
+	height : 24px;
+}
+.st44
+{
+	@extend .dots;
+	@include pseudo-dot(19px,$blue);
+	
+	left : 124px;
+	top : 42px;
+	width : 19px;
+	height : 19px;
+}
+.st45
+{
+	@extend .dots;
+	@include pseudo-dot(29px,$light-blue);
+	
+	left : 148px;
+	top : 132px;
+	width : 29px;
+	height : 29px;
+}
+.st46
+{
+	@extend .dots;
+	@include pseudo-dot(18px,$green);
+	
+	left : 85px;
+	top : 411px;
+	width : 18px;
+	height : 18px;
+}
+.st47
+{
+	@extend .dots;
+	@include pseudo-dot(37px,$light-blue);
+	
+	left : 161px;
+	top : 190px;
+	width : 37px;
+	height : 37px;
+}
+.st48
+{
+	@extend .dots;
+	@include pseudo-dot(43px,$cyan);
+	
+	left : 214px;
+	top : 285px;
+	width : 43px;
+	height : 43px;
+}
+.st49
+{
+	@extend .dots;
+	@include pseudo-dot(19px,$cyan);
+	
+	left : 232px;
+	top : 334px;
+	width : 19px;
+	height : 19px;
+}
+.st50
+{
+	@extend .dots;
+	@include pseudo-dot(18px,$blue);
+	
+	left : 139px;
+	top : 75px;
+	width : 18px;
+	height : 18px;
+}
+.st51
+{
+	@extend .dots;
+	@include pseudo-dot(57px,$cyan);
+	
+	left : 127px;
+	top : 330px;
+	width : 57px;
+	height : 57px;
+}
+.st52
+{
+	@extend .dots;
+	@include pseudo-dot(50px,$light-blue);
+	
+	left : 179px;
+	top : 226px;
+	width : 50px;
+	height : 50px;
+}
+.st53
+{
+	@extend .dots;
+	@include pseudo-dot(34px,$blue);
+	
+	left : 77px;
+	top : 147px;
+	width : 34px;
+	height : 34px;
+}
+.st54
+{
+	@extend .dots;
+	@include pseudo-dot(34px,$light-blue);
+	
+	left : 182px;
+	top : 123px;
+	width : 34px;
+	height : 34px;
+}
+.st55
+{
+	@extend .dots;
+	@include pseudo-dot(44px,$dark-blue);
+	
+	left : 73px;
+	top : 223px;
+	width : 44px;
+	height : 44px;
+}
+.st56
+{
+	@extend .dots;
+	@include pseudo-dot(25px,$light-blue);
+	
+	left : 178px;
+	top : 97px;
+	width : 25px;
+	height : 25px;
+}
+.st57
+{
+	@extend .dots;
+	@include pseudo-dot(21px,$light-blue);
+	
+	left : 170px;
+	top : 75px;
+	width : 21px;
+	height : 21px;
+}
+.st58
+{
+	@extend .dots;
+	@include pseudo-dot(17px,$blue);
+	
+	left : 133px;
+	top : 22px;
+	width : 17px;
+	height : 17px;
+}
+.st59
+{
+	@extend .dots;
+	@include pseudo-dot(29px,$blue);
+	
+	left : 105px;
+	top : 93px;
+	width : 29px;
+	height : 29px;
+}
+.st60
+{
+	@extend .dots;
+	@include pseudo-dot(20px,$blue);
+	
+	left : 93px;
+	top : 124px;
+	width : 20px;
+	height : 20px;
+}
