@@ -3,22 +3,28 @@
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active" style="background-image:url('http://placehold.it/1170x500')">
+        <div class="main">
+          <div class="earth-image-extension">
+            <%= image_tag("water-earth", size: "1500x900") %>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h2>Water Earth</span>
+          <p>Earth is over x% water, but only 3% of it is freshwater which we are rapidly using</p>
+          <div class="learn-more">
+            <span>Learn More</span>
+          </div>
+        </div>
       <!-- <img src="http://placehold.it/1170x500"> -->
-      <!-- <div class="carousel-caption">
-        ...
-      </div> -->
     </div>
     <div class="item" style="background-image:url('http://placehold.it/2170x600')">
       <!-- <img src="http://placehold.it/1170x600"> -->
-      <!-- <div class="carousel-caption">
-        ...
-      </div> -->
     </div>
   </div>
 
@@ -33,4 +39,17 @@
   </a>
 </div>
 
-<%= render :partial => "templates/animation" %>
+<div class="facts">
+  <div> 
+    FactBox 1
+  </div>
+  <div>
+    FactBox 2
+  </div>
+  <div>
+    FactBox 3
+  </div>
+  <div>
+    FactBox 4
+  </div>
+</div>

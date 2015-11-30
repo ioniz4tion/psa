@@ -10,7 +10,7 @@
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+		
 
 		<!-- import javascripts -->
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -23,75 +23,117 @@
 	</head>
 
 	<body>
-	<!--THESE ARE FOR THE USER ALERTS. PUT THEM SOMEWHERE PLZ AND THANKS.-->
-	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-		<!-- <div id="top-bar"></div> -->
-		<% if current_page?(controller: 'application', action: 'index') %>
-			<%= render :partial => "templates/animation" %>
-		<% end %>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-		<div class="container">
+		<div class="navbar-header">
+  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    		<span class="sr-only">Toggle navigation</span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+  		</button>
+  		<a href="index.html" id="home"><%= image_tag("logo", size: "50x80") %>H2Woah!</a>
+		</div>
 
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- <a class="navbar-brand" href="/home"><span>Wise Water</span></a> -->
-						<%= image_tag("logo", size: "90x150") %>
-					</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Conservation Tips</a></li>
-							<li><a href="#">Videos</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+			<ul class="nav navbar-nav navbar-right">
 
-			<div id="main">
+  			<li class="active"><a href="index.html">Home</a></li>
 
-				<%= yield %>
+  			<li class="dropdown">
+      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Facts<b class="caret"></b></a>
+      		<ul class="dropdown-menu">
+        		<li><a href="/facts">Page Top</a></li>
+        		<li class="divider"></li>
+        		<li><a href="alt-en.html#solar">Solar Panels</a></li>
+        		<li><a href="alt-en.html#wind">Wind Energy</a></li>
+        		<li><a href="alt-en.html#geo">Geothermal Heating</a></li>
+      		</ul>
+    		</li>
 
-			</div>
+  			<li class="dropdown">
+      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">DIY <b class="caret"></b></a>
+      		<ul class="dropdown-menu">
+        		<li><a href="/diy">Page Top</a></li>
+        		<li class="divider"></li>
+        		<li><a href="diy.html#lights">Replace Lights</a></li>
+        		<li><a href="diy.html#pipes">Insulate Pipes</a></li>
+        		<li><a href="diy.html#openings">Seal Openings</a></li>
+        		<li><a href="diy.html#ducts">Repair Ducts</a></li>
+      		</ul>
+    		</li>
 
-			<footer class="row">
+  			<li class="dropdown">
+      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Why<b class="caret"></b></a>
+      		<ul class="dropdown-menu">
+        		<li><a href="/why">Page Top</a></li>
+        		<li class="divider"></li>
+        		<li><a href="buying.html#howto">How to Buy</a></li>
+        		<li><a href="buying.html#gogreen">Why Go Green?</a></li>
+        		<li><a href="buying.html#rebates">Government Rebates</a></li>
+        		<li><a href="buying.html#leed">The LEED Ranking System</a></li>
+      		</ul>
+    		</li>
 
-				<div class="col-sm-3">
-					<div><%= link_to 'About Us', '/about' %></div>
-					<div><%= link_to 'Credits', '/credits' %></div>
-					<!-- <a href="#">Site Map</a> -->
-					<% if admin_signed_in? %>
-						<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
-					<% else %>
-						<div><%= link_to 'Admin Login', admin_session_path %></div>
-					<% end %>
-				</div>
+    		<li class="dropdown">
+      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
+      		<ul class="dropdown-menu">
+        		<li><a href="/how">Page Top</a></li>
+        		<li class="divider"></li>
+        		<li><a href="buying.html#howto">How to Buy</a></li>
+        		<li><a href="buying.html#gogreen">Why Go Green?</a></li>
+        		<li><a href="buying.html#rebates">Government Rebates</a></li>
+        		<li><a href="buying.html#leed">The LEED Ranking System</a></li>
+      		</ul>
+    		</li>
 
-				<div class="col-sm-3">
-					<div><a href="#">Contact Us</a></div>
-				</div>
+    		<li class="dropdown">
+      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+      		<ul class="dropdown-menu">
+        		<li><a href="/about">Page Top</a></li>
+        		<li class="divider"></li>
+        		<li><a href="about.html#devs">The Developers</a></li>
+            <li><a href="about.html#sources">Sources</a></li>
+        		<li><a href="about.html#info">More Information</a></li>
+      		</ul>
+    		</li>
 
-				<div class="col-sm-6">
-					<div><span>Sign up below for email updates:</span></div>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
-						<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
-					</div>
-				</div>
-
-			</footer>
+  		</ul>
 
 		</div>
+
+	</nav>		
+
+	<%= yield %>
+
+		<footer class="row">
+
+			<div class="col-sm-3">
+				<div><%= link_to 'About Us', '/about' %></div>
+				<div><%= link_to 'Credits', '/credits' %></div>
+				<a href="#">Site Map</a>
+				<% if admin_signed_in? %>
+					<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
+				<% else %>
+					<div><%= link_to 'Admin Login', admin_session_path %></div>
+				<% end %>
+			</div>
+
+			<div class="col-sm-3">
+				<div><a href="#">Contact Us</a></div>
+			</div>
+
+			<div class="col-sm-6">
+				<div><span>Sign up below for email updates:</span></div>
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+					<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
+				</div>
+			</div>
+
+		</footer>
 
 	</body>
 
