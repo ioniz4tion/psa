@@ -1,22 +1,22 @@
-<div class="content">
+<div id="login">
 
-  <h1>Log <span>in</span></h1>
+  <h1>Log in</h1>
 
   <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
-    <table class="login-form">
+    <div>
 
-      <tr>
-        <th><span>Email</span></td>
-        <td><%= f.email_field :email, autofocus: true %></td>
-      </tr>
+      <div>
+        <div class="col-sm-3"><span>Email</span></div>
+        <div class="col-sm-9"><%= f.email_field :email, autofocus: true %></div>
+      </div>
 
-      <tr>
-        <th><span>Password</span></td>
-        <td><%= f.password_field :password, autocomplete: "off" %></td>
-      </tr>
+      <div>
+        <div class="col-sm-3"><span>Password</span></div>
+        <div class="col-sm-9"><%= f.password_field :password, autocomplete: "off" %></div>
+      </div>
 
-      <tr>
+      <div>
         <td colspan="2">
           <% if devise_mapping.rememberable? -%>
             <!-- <span id="remember">Remember Me</span> -->
@@ -26,13 +26,13 @@
             <% end %>
           <% end -%>
         </td>
-      </tr>
+      </div>
 
       <tr>
         <td colspan="2"><%= f.submit "Log in", id: "login" %></td>
       </tr>
 
-    </table>
+    </div>
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
