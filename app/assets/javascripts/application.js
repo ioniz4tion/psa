@@ -18,7 +18,6 @@
 //= require turbolinks
 //= require_tree .
 
-//= require turbolinks
 //= require best_in_place
 
 $(document).ready(function() {
