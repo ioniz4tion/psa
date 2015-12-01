@@ -10,7 +10,7 @@
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
-		
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>		
 
 		<!-- import javascripts -->
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -66,7 +66,7 @@
 				<div class="col-sm-3">
 					<div><%= link_to 'About Us', '/about' %></div>
 					<div><%= link_to 'Credits', '/credits' %></div>
-					<a href="#">Site Map</a>
+					<!-- <a href="#">Site Map</a> -->
 					<% if admin_signed_in? %>
 						<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
 					<% else %>
