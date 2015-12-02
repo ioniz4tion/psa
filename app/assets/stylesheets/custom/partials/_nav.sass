@@ -38,18 +38,22 @@ nav
 	+transition(background 0.3s)
 
 	&.dark
-		background: #333 !important
+		background: #000 !important
 
 	&.affix
 		background: #000 !important
 
 	.navbar-header
+		button
+			margin-top: 8px
+			margin-bottom: 18.25px
+
 		img
 			height: 50px
 			padding-right: 10px
 
 		a:hover
-			color: #5C9CA8 !important
+			color: #ADD25F !important
 
 	a
 		display: table-cell !important
@@ -66,7 +70,7 @@ nav
 		@include transition(all 0.3s ease)
 
 		&:hover
-			color: #5C9CA8 !important
+			color: #ADD25F !important
 
 	.navbar-right a
 		padding-top: 20px !important
@@ -76,7 +80,7 @@ nav
 			content: ''
 			// display: block
 			position: absolute
-			background: #5C9CA8
+			background: #ADD25F
 
 			@include transition(all 0.3s ease)
 
