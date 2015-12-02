@@ -1,12 +1,14 @@
 <header></header>
 
-<div id="abouts">
+<section id="abouts">
 
 	<h1>About Us</h1>
 
 	<% @abouts.order(:name).each do |about| %>
 
-		<div>
+		<article>
+				
+			<h2><%= bip(about, :name) %></h2>
 
 			<div class="col-sm-3">
 				<%= image_tag(about.image.url) %>
@@ -14,7 +16,6 @@
 			</div>
 
 			<div class="col-sm-9">
-				<h2><%= bip(about, :name) %></h2>
 				<p><%= bip(about, :description, :textarea) %></p>
 
 				<table>
@@ -28,7 +29,7 @@
 						</td>
 
 						<td>
-							<span class="glyphicon glyphicon-earphone">asdfasdfadsf</span>
+							<span class="glyphicon glyphicon-earphone"></span>
 							<div>
 								<p><%= bip(about, :phone) %></p>
 							</div>
@@ -43,12 +44,10 @@
 				<%= cms_delete(about) %>
 			</div>
 
-		</div>
-
-		<hr>
+		</article>
 
 	<% end %>
 
 	<%= cms_add(abouts_path, "Add Person") %>
 
-</div>
+</section>
