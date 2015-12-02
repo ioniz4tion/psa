@@ -7227,3 +7227,106 @@ DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/r
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 21:40:13 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-02 07:44:17 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  Rendered templates/_animation.html.erb (0.4ms)
+  Rendered application/index.html.erb within layouts/application (4.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/fonts/fonts.css.scss to /home/iqover9000/Documents/rails/psa/app/assets/fonts/fonts.scss. (called from _app_views_layouts_application_html_erb__2569525944060229072_37144460 at /home/iqover9000/Documents/rails/psa/app/views/layouts/application.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/fonts/fonts.css.scss to /home/iqover9000/Documents/rails/psa/app/assets/fonts/fonts.scss. (called from _app_views_layouts_application_html_erb__2569525944060229072_37144460 at /home/iqover9000/Documents/rails/psa/app/views/layouts/application.html.erb:10)
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+WARNING on line 8 of /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache b601f65147ec1317bba96b848aa026e433c8c937/imports.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3095ms (Views: 3086.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2015-12-02 07:44:21 -0800
+
+
+Started GET "/assets/best_in_place.self-ef93f4d2b932bcd1e6a5160e7e2cfec71c92911751b537f402e293113595e104.js?body=1" for 127.0.0.1 at 2015-12-02 07:44:22 -0800
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2015-12-02 07:44:22 -0800
+
+
+Started GET "/assets/water-drop.jpg" for 127.0.0.1 at 2015-12-02 07:44:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:44:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:44:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:44:35 -0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-12-02 07:44:40 -0800
+Processing by AboutsController#index as HTML
+  [1m[35mAbout Load (1.5ms)[0m  SELECT "abouts".* FROM "abouts"  ORDER BY "abouts"."name" ASC
+  Rendered abouts/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 261ms (Views: 251.2ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/facts" for 127.0.0.1 at 2015-12-02 07:44:52 -0800
+Processing by FactsController#facts as HTML
+  Rendered facts/facts.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 227ms (Views: 225.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-12-02 07:45:59 -0800
+Processing by ApplicationController#index as HTML
+  Rendered templates/_animation.html.erb (0.1ms)
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 322ms (Views: 320.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/water-drop.jpg" for 127.0.0.1 at 2015-12-02 07:46:00 -0800
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2015-12-02 07:46:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 07:46:39 -0800
+
+
+Started GET "/facts" for 127.0.0.1 at 2015-12-02 07:46:43 -0800
+Processing by FactsController#facts as HTML
+  Rendered facts/facts.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 249ms (Views: 247.8ms | ActiveRecord: 0.0ms)
