@@ -15,3 +15,9 @@ Credit.create!([
 	{image_file_name: "214x140.png", image_content_type: "image/png", image_file_size: 4753,name:"HTML5 Validation", description:"In order to make sure that we provide a user-friendly and browser-friendly viewing experience, we have designed this site to conform to the World Wide Web Consortium's HTML5 standards. Our code is validated by the W3C's HTML5 validator and has no errors in it."},
 	{image_file_name: "214x140.png", image_content_type: "image/png", image_file_size: 4753,name:"Business Professionals of America", description:"This site was created by members of the Business Professionals of America, Lake City High School Chapter in Coeur d'Alene, Idaho, for the PSA themed Web Site Design Team event at the 2016 National Leadership Conference in Anaheim, California."}
 ])
+Factbox.create!([
+  {title: "Water Used by the U.S.",number: "416",unit: "trilliion gallons per year",description: "That's the equivalent of 54,953,000,000 plastic water bottles!"},
+  {title: "Water used by U.S. Households",number: "100",unit: "thousand gallons per year",description: "The average U.S. resident uses about 100 gallons per day, where Europeans use only 50 gallons per day on average."},
+  {title: "Faucet leaking at 1 drip/second",number: "3000",unit: "gallons per year",description: "Household leaks in the U.S. can account for over 1 trillion gallons of wasted water."},
+  {title: "Water Pipes in U.S. and Canada",number: "1",unit: "million miles",description: "That's enough to wrap around the world 40 times!"}
+])

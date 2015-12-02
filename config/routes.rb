@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get '/why' => 'why#why'
   get '/how' => 'how#how'
 
+  put '/factboxes/:id' => 'application#update_factbox'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
