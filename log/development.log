@@ -8724,3 +8724,3345 @@ Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:07 -
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:20 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-12-01 22:28:21 -0800
+Processing by ApplicationController#index as HTML
+  Rendered templates/_animation.html.erb (0.1ms)
+  Rendered application/index.html.erb within layouts/application (1.7ms)
+Warning. Error encountered while saving cache 4796abfa285bb932c5be6a7842c797059b7baca4/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4796abfa285bb932c5be6a7842c797059b7baca4/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4796abfa285bb932c5be6a7842c797059b7baca4/imports.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4796abfa285bb932c5be6a7842c797059b7baca4/imports.sassc: can't dump hash with default proc
+
+Completed 200 OK in 558ms (Views: 557.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-bootstrap.self-8e0efa4f9215d00d120b99c7b2c34994f7d39b71a4d871716865dfb19cbf7e9d.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap-compass.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/application-custom.self-8e0efa4f9215d00d120b99c7b2c34994f7d39b71a4d871716865dfb19cbf7e9d.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap-sprockets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap.self-e5bcb1197d2ca1047e4884869348a5bee90c1a3305bc8f15952ad648d8b4b066.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap-mincer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/animation.self-74319e57ce3e2bcf96704f154cb4e9a019d293f83e3873cbfaec00e9ff3b8f27.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/logo.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/imports.self-a823219efa97dc7e8611ad2af308eb8247301f3fc0c8316edf744fbe0185871f.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/mixins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_abouts.self-b02e249d0958fe88a38bfca395c40613a88e0265fa6d6bd8010972b57d80a82c.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/nav.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_contact.self-789fa86c63eba91f46d7fb3ccf45cdfcc0b4c2c0a4844f32eb881c9776b00997.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_body.self-9caddda0983e92c65051c61680aa1fadf17083398503c16d41ac4501eea52b9a.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_carousel.self-25425723b9bc2326316eeb623c9ea84f7da2b30a603522f5a3e395860f9bfc73.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_container.self-71c134d5c59fb77bd7dfcba4762771d61ca13a4fc5c4fdd83ad1826b33586de1.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_factBoxes.self-43ff38c4fea14b28055aff85efbcde3301fb69e4634d88fdbf6af3343cc89c74.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_footer.self-254e1f96a36beb9b7044437e97c92e93b61abf0f2dd0a52322c9cc7636e9ece3.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_header.self-5ba10edccddfb5b4a0ca7d94332b9fd0727ac5f8c8d0d8dd95036b691835b91a.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_login.self-133f2ecb05d8051a215402ff9b8d956dbd7bf14689951552d41a27fcd9d9c4e9.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_main.self-0209a8eb74d31d1e752419ecf9f4dc36857bbbde5f21a89c6ddca3adbc040af3.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_nav.self-cbc94f1c4abbf5cc5a94462c663eaec0482952dc3851af320a7a67e7ea16dbd2.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/custom/partials/_topBar.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/animation.self-87a91b7952634bc17b0a11e5c9ab01b49822a07e063fdedb13a31c20853f0d95.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/credits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/diy.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/factBoxes.self-7a47ecbf922a55ccab5b31ee5f433dc2367fa4955d381c53dae15a29106a5eed.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/facts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/headerResize.self-09c05217b344d90b83a39e48f880ce3bbe9ae0852359db9993a7241d1d469d6c.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/how.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/jquery.bxslider.self-6edb2fde7a6fe546da37159aa14b7fc3c2ee177f609f8827d0ac28ac224db5a3.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/navColor.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/navToggle.self-d6c05a6a137d04054ebe4f8b35b1c214a70742742dedede547fc665fcbd660f5.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/why.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/jquery.autosize.self-208a4ea73c22b3517889027ffae7a076a0c5b4c38e4b595639979f10ada2ebe4.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/best_in_place.self-ef93f4d2b932bcd1e6a5160e7e2cfec71c92911751b537f402e293113595e104.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/application.self-810ab76a9d6ee1d6319c817859d3caf65cd86e6283ca7e4fa7c60802f3f90057.js?body=1" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/water-drop.jpg" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:28:35 -0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-12-01 22:28:39 -0800
+Processing by AboutsController#index as HTML
+  [1m[36mAbout Load (0.3ms)[0m  [1mSELECT "abouts".* FROM "abouts"  ORDER BY "abouts"."name" ASC[0m
+  Rendered abouts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 186ms (Views: 183.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-12-01 22:29:18 -0800
+Processing by ApplicationController#contact as HTML
+  Rendered application/contact.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 162ms (Views: 161.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/credits" for 127.0.0.1 at 2015-12-01 22:29:32 -0800
+Processing by CreditsController#index as HTML
+  [1m[35mCredit Load (0.5ms)[0m  SELECT "credits".* FROM "credits"  ORDER BY "credits"."name" ASC
+  Rendered credits/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 169ms (Views: 165.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/system/credits/images/000/000/003/original/BPA_logo.png?1448765829" for 127.0.0.1 at 2015-12-01 22:29:33 -0800
+
+ActionController::RoutingError (No route matches [GET] "/system/credits/images/000/000/003/original/BPA_logo.png"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.1ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.6ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.0ms)
+
+
+Started GET "/system/credits/images/000/000/001/original/Copyrights.png?1448765852" for 127.0.0.1 at 2015-12-01 22:29:33 -0800
+
+ActionController::RoutingError (No route matches [GET] "/system/credits/images/000/000/001/original/Copyrights.png"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.7ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.5ms)
+
+
+Started GET "/system/credits/images/000/000/002/original/W3C.svg?1448765882" for 127.0.0.1 at 2015-12-01 22:29:33 -0800
+
+ActionController::RoutingError (No route matches [GET] "/system/credits/images/000/000/002/original/W3C.svg"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.0ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zack/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.4ms)
+
+
+Started GET "/facts" for 127.0.0.1 at 2015-12-01 22:29:41 -0800
+Processing by FactsController#facts as HTML
+  Rendered facts/facts.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 191ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/diy" for 127.0.0.1 at 2015-12-01 22:29:48 -0800
+Processing by DiyController#diy as HTML
+  Rendered diy/diy.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 177ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why" for 127.0.0.1 at 2015-12-01 22:29:52 -0800
+Processing by WhyController#why as HTML
+  Rendered why/why.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/how" for 127.0.0.1 at 2015-12-01 22:29:54 -0800
+Processing by HowController#how as HTML
+  Rendered how/how.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 175ms (Views: 174.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-12-01 22:29:58 -0800
+Processing by ApplicationController#index as HTML
+  Rendered templates/_animation.html.erb (0.0ms)
+  Rendered application/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 175ms (Views: 174.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:29:58 -0800
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2015-12-01 22:29:58 -0800
+
+
+Started GET "/assets/water-drop.jpg" for 127.0.0.1 at 2015-12-01 22:29:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:30:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:31:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:32:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:33:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:34:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:35:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:36:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:37:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:38:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:39:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:40:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:41:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:42:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:43:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:44:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:45:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:46:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:47:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:48:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:49:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:50:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:51:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:52:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:53:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:54:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:55:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:56:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:57:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:58:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 22:59:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:00:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:01:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:02:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:03:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:04:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:05:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:06:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:07:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:08:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:09:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:10:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:11:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:12:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:13:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:14:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:15:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:16:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:17:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:18:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:19:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:20:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:21:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:22:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:23:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:24:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:25:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:26:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:27:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:28:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:29:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:30:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:31:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:32:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:33:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:34:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:35:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:36:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:37:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:38:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:39:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:40:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:41:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:42:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:43:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:44:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:45:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:46:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:47:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:48:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:49:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:50:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:51:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:52:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:53:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:54:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:55:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:56:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:57:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:58:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-01 23:59:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:00:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:01:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:02:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:41 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:47 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:03:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:00 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:06 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:25 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:31 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:44 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:50 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:04:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:03 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:09 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:15 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:28 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:34 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:40 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:53 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:05:59 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:12 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:18 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:37 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:43 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:06:56 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:02 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:08 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:21 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:27 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:46 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:07:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:05 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:24 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:30 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:49 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:08:55 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:14 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:20 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:33 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:39 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:52 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:09:58 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:11 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:17 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:23 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:36 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:42 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:48 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:10:54 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:01 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:07 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:13 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:19 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:26 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:32 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:38 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:45 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:51 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:11:57 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:04 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:10 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:16 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:22 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:29 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:35 -0800
+
+
+Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-02 00:12:41 -0800
