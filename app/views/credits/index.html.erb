@@ -1,10 +1,14 @@
-<div id="credits">
+<header></header>
+
+<section id="credits">
 
 	<h1>Credits</h1>
 
 	<% @credits.order(:name).each do |credit| %>
 
-		<div>
+		<article>
+				
+			<h2><%= bip(credit, :name, :textarea) %></h2>
 
 			<div class="col-sm-3">
 				<%= image_tag(credit.image.url) %>
@@ -13,14 +17,11 @@
 			<%= cms_upload(credit, :image, "Upload Image") %>
 
 			<div class="col-sm-9">
-				<h2><%= bip(credit, :name, :textarea) %></h2>
 				<p><%= bip(credit, :description, :textarea) %></p>
 			</div>
 
-		</div>
-
-		<hr>
+		</article>
 
 	<% end %>
 
-</div>
+</section>

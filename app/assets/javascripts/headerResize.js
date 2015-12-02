@@ -4,7 +4,7 @@ $(document).ready(function() {
         $header = $('header');
 
     var setHeaderHeight = function() {
-        var heightSource = $(window).height() - 95;
+        var heightSource = $(window).height() - 100;
         $header.css('height', heightSource);
     };
 

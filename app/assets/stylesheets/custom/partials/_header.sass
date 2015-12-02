@@ -1,0 +1,27 @@
+@import '../imports.sass'
+
+header
+	position: relative
+
+	ul
+		display: inline-block
+		margin: 0
+		padding: 0
+		position: absolute
+		bottom: 25px
+		font-size: 24px
+
+		+x-center
+
+		li
+			display: inline-block
+			margin: 0 20px
+			list-style: none
+
+	iframe
+		width: 100%
+		height: calc(100% - 70px)
+		margin-top: 70px
+		border: none
+		outline: none
+		pointer-events: none
