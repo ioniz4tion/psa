@@ -18,7 +18,7 @@
 				<%= render "templates/animation" %>
 
 				<div class="carousel-caption">
-					<h3>H2Whoa!</h3>
+					<h3><!--H2Whoa!--></h3>
 					<p>It takes a lot of blue to go green</p>
 				</div>
 			</div>
@@ -72,76 +72,72 @@
 
 <div class="facts">
 
-	<!-- <div class="center"> -->
+	<% i = 0 %>
+	<% @factbox.each do |factbox| %>
+	  	<% i += 1 %>
 
-		<div class="fact-box" id="fact-box1"> 
+	 	<div class="fact-box" id="fact-box<%= i %>"> 
 			<div class="helper">
-				<p>Water Used by the U.S.</p>
+				<p><%= bip(factbox,:title) %></p>
 
 				<div class="front">
-					<div class="fact-number">416</div><div class="fact-unit">trillion gallons per year</div>
+					<div class="fact-number"><%= bip(factbox,:number) %></div><div class="fact-unit"><%= bip(factbox,:unit) %></div>
 				</div>
 
-				<div class="back">That's the equivalent of 54,953,000,000 plastic water bottles!</div>
+				<div class="back"><%= bip(factbox,:description,:textarea) %></div>
 			</div>
 		</div>
-
-		<div class="fact-box" id="fact-box2" >
-			<div class="helper">
-				<p>Water used by U.S. Households</p>
-
-				<div class="front">
-					<div class="fact-number">100</div><div class="fact-unit">thousand gallons per year</div>
-				</div>
-
-				<div class="back">The average U.S. resident uses about 100 gallons per day, where Europeans use only 50 gallons per day on average.</div>
-			</div>
-		</div>
-
-		<div class="fact-box"id="fact-box3" >
-			<div class="helper">
-				<p>Faucet leaking at 1 drip/second</p>
-
-				<div class="front">
-					<div class="fact-number">3000</div><div class="fact-unit">gallons per year</div>
-				</div>
-
-				<div class="back">Household leaks in the U.S. can account for over 1 trillion gallons of wasted water.</div>
-			</div>
-		</div>
-
-		<div class="fact-box"id="fact-box4">
-			<div class="helper">
-				<p>Water Pipes in U.S. and Canada</p>
-
-				<div class="front">
-					<div class="fact-number">1</div><div class="fact-unit">million miles</div>
-				</div>
-
-				<div class="back">That's enough to wrap around the world 40 times!</div>
-			</div>
-		</div>
-
-	<!-- </div> -->
+	    
+	  <% end %>
 
 </div>
 
-<section>
+<section id="home-section">
 
 	<h1>H2Whoa!</h1>
 
 	<div class="row">
 
-		<div class="col-sm-3">
+		<div class="col-md-6">
+
+			<div class="col-sm-6">
+				<a href="/facts">
+					<h3>Facts</h3>
+					<img src="http://placehold.it/300x300">
+					<p>Look at water conservation stuff here</p>
+				</a>
+			</div>
+
+			<div class="col-sm-6">
+				<a href="/indoors">
+					<h3>Indoors</h3>
+					<img src="http://placehold.it/300x300">
+					<p>Look at water conservation stuff here</p>
+				</a>
+			</div>
+
 		</div>
 
-		<div class="col-sm-3">
+		<div class="col-md-6">
+
+			<div class="col-sm-6">
+				<a href="/outdoors">
+					<h3>Outdoors</h3>
+					<img src="http://placehold.it/300x300">
+					<p>Look at water conservation stuff here</p>
+				</a>
+			</div>
+
+			<div class="col-sm-6">
+				<a href="/why">
+					<h3>Why</h3>
+					<img src="http://placehold.it/300x300">
+					<p>Look at water conservation stuff here</p>
+				</a>
+			</div>
+
 		</div>
 
-		<div class="col-sm-3">
-		</div>
-
-		<div class="col-sm-3">
-		</div>
+	</div>
 
 </section>

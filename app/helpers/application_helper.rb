@@ -2,15 +2,15 @@ module ApplicationHelper
 
 	def bip(model, column, type = "input")
 		best_in_place_if admin_signed_in?, model, 
-				column, path: model.class.table_name.to_s + '/' + model.id.to_s,
-				type: type
+				column, url: model.class.table_name.to_s + '/' + model.id.to_s,
+				as: type
 	end
 
 	def bip_url(model, column, url, show = true, type = "input")
 		if show || admin_signed_in?
 			best_in_place_if admin_signed_in?, model, 
-					column, path: url + '/' + model.id.to_s,
-					type: type
+					column, url: url + '/' + model.id.to_s,
+					:as => type
 		end
 	end
 
