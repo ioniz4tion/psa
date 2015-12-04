@@ -4,13 +4,53 @@
 	height: 100px
 	background: #333
 	position: relative
-	padding-left: 10px
+	// padding-left: 10px
+	width: 100%
+	margin: 0
+
+	@media (min-width: $screen-sm) and (max-width: $screen-md - 1)
+		height: 220px
+
+	@media (max-width: $screen-sm - 1)
+		height: 460px
+
+	.col-md-6
+		padding: 0
+		height: 100%
+		padding-left: 10px
+
+		&:first-child
+			@media (max-width: $screen-md - 1)
+				margin-bottom: 20px
+
+		@media (min-width: $screen-sm) and (max-width: $screen-md - 1)
+			height: calc(50% - 10px)
+
+		@media (max-width: $screen-sm - 1)
+			height: calc(50% - 10px)
+
+		&:last-child .col-sm-6:first-child
+			@media (min-width: $screen-md)
+				margin: 0
+
+	.col-sm-6
+		padding: 0
+		margin: 0 10px
+		height: 100%
+		width: calc(50% - 25px)
+
+		@media (max-width: $screen-sm - 1)
+			width: calc(100% - 30px)
+			height: calc(50% - 10px)
+			
+			&:first-child
+				margin-bottom: 20px
 
 	.fact-box
 		display: inline-block
 		height: 100%
-		width: calc(25% - 25px)
-		margin: 0 10px
+		width: 100%
+		// margin: 0 10px
 		position: relative
 		background: transparent
 		z-index: 2
