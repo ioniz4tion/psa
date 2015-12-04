@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 
 Started GET "/" for 127.0.0.1 at 2015-12-01 13:00:45 -0800
@@ -53684,6 +53686,7 @@ Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 08:57:35 -
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 08:57:41 -0800
+<<<<<<< HEAD
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 08:57:47 -0800
@@ -55433,3 +55436,6 @@ Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 09:03:15 -
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 09:03:21 -0800
+=======
+>>>>>>> 8620b6152893e5533710bf082a7f72528ba6e6da
+>>>>>>> 75d3212ae9e2a20bfa914a98f516872ce3bca59d
