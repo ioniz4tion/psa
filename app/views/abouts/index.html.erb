@@ -18,25 +18,23 @@
 			<div class="col-sm-9">
 				<p><%= bip(about, :description, :textarea) %></p>
 
-				<table>
-					<tr>
+				<div>
 
-						<td>
+						<div class="col-sm-6">
 							<span class="glyphicon glyphicon-envelope"></span>
 							<div>
 								<a href="mailto:<%= about.email %>"><%= bip(about, :email) %></a>
 							</div>
-						</td>
+						</div>
 
-						<td>
+						<div class="col-sm-6">
 							<span class="glyphicon glyphicon-earphone"></span>
 							<div>
 								<p><%= bip(about, :phone) %></p>
 							</div>
-						</td>
+						</div>
 
-					</tr>
-				</table>
+				</div>
 
 			</div>
 

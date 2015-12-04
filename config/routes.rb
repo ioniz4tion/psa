@@ -12,9 +12,9 @@ Rails.application.routes.draw do
   get '/contact' => 'application#contact'
 
   get '/facts' => 'facts#facts'
-  get '/diy' => 'diy#diy'
+  get '/indoors' => 'diy#diy'
   get '/why' => 'why#why'
-  get '/how' => 'how#how'
+  get '/outdoors' => 'how#how'
 
   put '/factboxes/:id' => 'application#update_factbox'
 
