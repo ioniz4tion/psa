@@ -68,11 +68,30 @@ $light-blue: #8CC6EC;
     z-index: -1;
 }
 
-.animation p {
+#animation-text {
 	position: absolute;
-	left: -50px;
-	top: -60px;
-	font-size: 120px;
+	left: -70px;
+	top: -80px;
+	font-size:140px;
+	font-family: Sketch;
+}
+
+#animation-caption {
+	position: absolute;
+	left: -45px;
+	top:100px;
+	font-size: 32px;
+	font-style: italic;
+}
+
+#blue {
+	color: $blue;
+	display: inline-block;
+}
+
+#green {
+	color: $green;
+	display: inline-block;
 }
 
 .st0
