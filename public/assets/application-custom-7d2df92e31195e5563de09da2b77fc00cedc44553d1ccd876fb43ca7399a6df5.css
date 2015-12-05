@@ -1,0 +1,1687 @@
+/**
+ *
+ *
+ *
+ *
+ */
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 6, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 14, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.dots, .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38, .st39, .st40, .st41, .st42, .st43, .st44, .st45, .st46, .st47, .st48, .st49, .st50, .st51, .st52, .st53, .st54, .st55, .st56, .st57, .st58, .st59, .st60 {
+  position: absolute;
+}
+
+/* line 20, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.animation {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 26, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.logo-container {
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  overflow: visible;
+  position: relative;
+}
+
+/* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.logo {
+  position: absolute;
+  left: -28.05%;
+  top: -250px;
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  /* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+  .logo {
+    left: -35%;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+  /* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+  .logo {
+    left: -41%;
+  }
+}
+@media (max-width: 1000px) {
+  /* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+  .logo {
+    left: -16%;
+  }
+}
+
+/* line 69, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.animation {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 74, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.fade-away {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
+
+/* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.text {
+  position: absolute;
+  left: -9.68%;
+  top: -80px;
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+  /* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+  .text {
+    left: -13%;
+  }
+}
+@media (max-width: 1000px) {
+  /* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+  .text {
+    left: -30%;
+  }
+}
+
+/* line 97, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+#animation-text {
+  font-size: 140px;
+  font-family: Sketch;
+}
+
+/* line 102, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+#animation-caption {
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+  margin-top: -40px;
+}
+
+/* line 109, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+#blue {
+  color: #278BCA;
+  display: inline-block;
+}
+
+/* line 114, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+#green {
+  color: #ADD25F;
+  display: inline-block;
+}
+
+/* line 119, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st0 {
+  left: 59px;
+  top: 297px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #4A70B6;
+}
+
+/* line 126, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st1 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 18px;
+  top: 253px;
+}
+
+/* line 133, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st2 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #8CC6EC;
+  left: 225px;
+  top: 262px;
+}
+
+/* line 140, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st3 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 2px;
+  top: 306px;
+}
+
+/* line 147, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st4 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #278BCA;
+  left: 144px;
+  top: 4px;
+}
+
+/* line 154, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st5 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  background: #23A9E1;
+  left: 210px;
+  top: 359px;
+}
+
+/* line 161, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st6 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #ADD25F;
+  left: 4px;
+  top: 359px;
+}
+
+/* line 168, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st7 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #8CC6EC;
+  left: 162px;
+  top: 166px;
+}
+
+/* line 175, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st8 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #23A9E1;
+  left: 181px;
+  top: 377px;
+}
+
+/* line 182, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st9 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: #ADD25F;
+  left: 82px;
+  top: 360px;
+}
+
+/* line 189, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st10 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #4A70B6;
+  left: 94px;
+  top: 321px;
+}
+
+/* line 196, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st11 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ADD25F;
+  left: 64px;
+  top: 364px;
+}
+
+/* line 203, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st12 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #8CC6EC;
+  left: 122px;
+  top: 201px;
+}
+
+/* line 210, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st13 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  background: #23A9E1;
+  left: 157px;
+  top: 276px;
+}
+
+/* line 217, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st14 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #278BCA;
+  left: 118px;
+  top: 124px;
+}
+
+/* line 224, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st15 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #ADD25F;
+  left: 204px;
+  top: 436px;
+}
+
+/* line 231, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st16 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #4A70B6;
+  left: 87px;
+  top: 267px;
+}
+
+/* line 238, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st17 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background: #23A9E1;
+  left: 260px;
+  top: 278px;
+}
+
+/* line 245, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st18 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #278BCA;
+  left: 152px;
+  top: 21px;
+}
+
+/* line 252, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st19 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: #278BCA;
+  left: 93px;
+  top: 196px;
+}
+
+/* line 259, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st20 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 94px;
+  height: 94px;
+  background: #ADD25F;
+  left: 105px;
+  top: 395px;
+}
+
+/* line 266, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st21 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #23A9E1;
+  left: 132px;
+  top: 305px;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 276, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st22 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #8CC6EC;
+  left: 214px;
+  top: 152px;
+}
+
+/* line 283, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st23 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #4A70B6;
+  left: 57px;
+  top: 328px;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 293, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st24 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background: #23A9E1;
+  left: 188px;
+  top: 329px;
+  width: 41px;
+  height: 41px;
+}
+
+/* line 303, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st25 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #23A9E1;
+  left: 251px;
+  top: 311px;
+  width: 48px;
+  height: 48px;
+}
+
+/* line 313, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st26 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ADD25F;
+  left: 198px;
+  top: 413px;
+  width: 15px;
+  height: 15px;
+}
+
+/* line 323, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st27 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #278BCA;
+  left: 114px;
+  top: 67px;
+  width: 22px;
+  height: 22px;
+}
+
+/* line 333, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st28 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ADD25F;
+  left: 37px;
+  top: 356px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 343, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st29 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background: #ADD25F;
+  left: 17px;
+  top: 377px;
+  width: 65px;
+  height: 65px;
+}
+
+/* line 353, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st30 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #8CC6EC;
+  left: 130px;
+  top: 240px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 363, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st31 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #278BCA;
+  left: 166px;
+  top: 42px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 373, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st32 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: #8CC6EC;
+  left: 216px;
+  top: 166px;
+  width: 26px;
+  height: 26px;
+}
+
+/* line 383, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st33 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #8CC6EC;
+  left: 201px;
+  top: 197px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 393, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st34 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #278BCA;
+  left: 58px;
+  top: 182px;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 403, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st35 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 139px;
+  top: 94px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 413, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st36 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background: #278BCA;
+  left: 112px;
+  top: 153px;
+  width: 41px;
+  height: 41px;
+}
+
+/* line 423, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st37 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 224px;
+  top: 199px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 433, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st38 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background: #8CC6EC;
+  left: 185px;
+  top: 163px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 443, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st39 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #ADD25F;
+  left: 64px;
+  top: 434px;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 453, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st40 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #278BCA;
+  left: 171px;
+  top: 58px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 463, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st41 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #278BCA;
+  left: 39px;
+  top: 213px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 473, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st42 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #8CC6EC;
+  left: 242px;
+  top: 235px;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 483, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st43 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #278BCA;
+  left: 143px;
+  top: 48px;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 493, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st44 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #278BCA;
+  left: 124px;
+  top: 42px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 503, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st45 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: #8CC6EC;
+  left: 148px;
+  top: 132px;
+  width: 29px;
+  height: 29px;
+}
+
+/* line 513, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st46 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ADD25F;
+  left: 85px;
+  top: 411px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 523, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st47 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background: #8CC6EC;
+  left: 161px;
+  top: 190px;
+  width: 37px;
+  height: 37px;
+}
+
+/* line 533, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st48 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  background: #23A9E1;
+  left: 214px;
+  top: 285px;
+  width: 43px;
+  height: 43px;
+}
+
+/* line 543, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st49 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: #23A9E1;
+  left: 232px;
+  top: 334px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 553, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st50 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #278BCA;
+  left: 139px;
+  top: 75px;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 563, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st51 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 57px;
+  height: 57px;
+  background: #23A9E1;
+  left: 127px;
+  top: 330px;
+  width: 57px;
+  height: 57px;
+}
+
+/* line 573, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st52 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #8CC6EC;
+  left: 179px;
+  top: 226px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 583, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st53 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #278BCA;
+  left: 77px;
+  top: 147px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 593, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st54 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8CC6EC;
+  left: 182px;
+  top: 123px;
+  width: 34px;
+  height: 34px;
+}
+
+/* line 603, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st55 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background: #4A70B6;
+  left: 73px;
+  top: 223px;
+  width: 44px;
+  height: 44px;
+}
+
+/* line 613, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st56 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #8CC6EC;
+  left: 178px;
+  top: 97px;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 623, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st57 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: #8CC6EC;
+  left: 170px;
+  top: 75px;
+  width: 21px;
+  height: 21px;
+}
+
+/* line 633, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st58 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: #278BCA;
+  left: 133px;
+  top: 22px;
+  width: 17px;
+  height: 17px;
+}
+
+/* line 643, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st59 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: #278BCA;
+  left: 105px;
+  top: 93px;
+  width: 29px;
+  height: 29px;
+}
+
+/* line 653, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/animation.scss */
+.st60 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #278BCA;
+  left: 93px;
+  top: 124px;
+  width: 20px;
+  height: 20px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 4, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts article,
+#credits article {
+  overflow: auto;
+}
+/* line 7, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts .col-sm-3,
+#credits .col-sm-3 {
+  padding: 6px 0;
+}
+/* line 10, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts img,
+#credits img {
+  width: 100%;
+}
+/* line 13, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts h2,
+#credits h2 {
+  margin-top: 3px !important;
+}
+/* line 16, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts .col-sm-6,
+#credits .col-sm-6 {
+  padding: 0 30px 0 0;
+  font-size: 18px;
+}
+/* line 20, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts .col-sm-6 span,
+#credits .col-sm-6 span {
+  margin-right: 5px;
+}
+/* line 23, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts .col-sm-6 div,
+#credits .col-sm-6 div {
+  display: inline-block;
+}
+/* line 26, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts .col-sm-6 p,
+#credits .col-sm-6 p {
+  margin: 0;
+}
+/* line 29, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts hr,
+#credits hr {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 25px 0 25px 15px !important;
+}
+/* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts hr:last-child,
+#credits hr:last-child {
+  display: none;
+}
+
+/* line 37, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#abouts {
+  margin-top: 70px;
+}
+
+/* line 40, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_abouts.sass */
+#credits {
+  margin-top: 50px;
+}
+/* line 31, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_body.sass */
+body {
+  font-family: "Roboto" !important;
+  color: #fff;
+  background: #fff;
+}
+/* line 36, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_body.sass */
+body h1,
+body h2,
+body h3,
+body nav,
+body header ul,
+body footer {
+  font-family: "Bebas";
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+/* line 14, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel,
+.carousel-inner,
+.item {
+  height: 100%;
+}
+
+/* line 19, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel {
+  background: #000;
+}
+/* line 22, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel video {
+  max-width: 100%;
+  height: 100%;
+}
+/* line 26, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel .carousel-control {
+  background: transparent !important;
+}
+/* line 29, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel ol li {
+  border-color: #7F913B;
+}
+/* line 32, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel ol li.active {
+  background-color: #7F913B;
+}
+
+/* line 35, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel-caption {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+/* line 44, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel-caption h3 {
+  font-family: Sketch;
+  font-size: 52px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+/* line 50, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.carousel-caption p {
+  font-size: 18px;
+}
+
+/* line 53, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_carousel.sass */
+.slideshow-caption {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact {
+  padding: 25px;
+  padding-bottom: 40px;
+  overflow: auto;
+}
+/* line 6, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact h1 {
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+/* line 10, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact iframe {
+  display: block;
+  width: calc(100% - 30px);
+  height: 500px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  border: 0;
+}
+/* line 18, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact > div {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+/* line 23, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact img {
+  width: 100px;
+}
+/* line 29, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact #info .col-sm-2 div,
+#contact #info .col-sm-4 div {
+  display: inline-block;
+}
+/* line 32, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact #info .col-sm-2 p,
+#contact #info .col-sm-4 p {
+  margin: 0 !important;
+}
+/* line 35, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact hr {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 25px 0 25px 15px !important;
+  border-color: #999 !important;
+}
+/* line 42, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form > div {
+  padding-bottom: 20px;
+  overflow: auto;
+}
+/* line 46, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form > div:last-child {
+  padding-bottom: 0;
+}
+/* line 49, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form .col-sm-3,
+#contact form input[type="submit"] {
+  font-family: "Bebas";
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+/* line 55, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form textarea {
+  height: 150px;
+  resize: vertical;
+}
+/* line 59, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form .col-sm-2.right {
+  float: right !important;
+}
+/* line 62, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact form .col-sm-2.right input[type="submit"] {
+  padding: 10px;
+  background: #7F913B;
+  color: #000;
+  border: none;
+  outline: none;
+  float: right !important;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  width: auto;
+  text-transform: uppercase;
+}
+/* line 74, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_contact.sass */
+#contact .glyphicon.glyphicon-asterisk {
+  color: red;
+}
+/* line 10, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_container.sass */
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* line 13, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_container.sass */
+#earth-video-slide {
+  text-align: center;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts {
+  height: 100px;
+  background: #333;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts {
+    height: 220px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts {
+    height: 460px;
+  }
+}
+/* line 17, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .col-md-6 {
+  padding: 0;
+  height: 100%;
+}
+/* line 21, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .col-md-6:first-child {
+  padding-left: 20px;
+}
+@media (max-width: 991px) {
+  /* line 21, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-md-6:first-child {
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 17, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-md-6 {
+    height: calc(50% - 10px);
+  }
+}
+@media (max-width: 767px) {
+  /* line 17, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-md-6 {
+    height: calc(50% - 10px);
+  }
+}
+@media (min-width: 992px) {
+  /* line 34, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-md-6:last-child .col-sm-6:first-child {
+    margin-left: 0;
+  }
+}
+/* line 38, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .col-sm-6 {
+  padding: 0;
+  margin: 0 10px;
+  height: 100%;
+  width: calc(50% - 25px);
+}
+@media (max-width: 767px) {
+  /* line 38, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-sm-6 {
+    width: calc(100% - 30px);
+    height: calc(50% - 10px);
+  }
+  /* line 48, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+  .facts .col-sm-6:first-child {
+    margin-bottom: 20px;
+  }
+}
+/* line 51, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: transparent;
+  z-index: 2;
+  -ms-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+/* line 62, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #555;
+  z-index: -1;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 75, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box p {
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 79, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:hover p {
+  color: #000;
+}
+/* line 82, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:hover .front {
+  visibility: hidden;
+  opacity: 0;
+}
+/* line 86, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:hover .back {
+  visibility: visible;
+  opacity: 1;
+}
+/* line 90, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:nth-child(1):hover::after {
+  background: #23A9E1;
+}
+/* line 93, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:nth-child(2):hover::after {
+  background: #4747d1;
+}
+/* line 96, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:nth-child(3):hover::after {
+  background: #5c5cd6;
+}
+/* line 99, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box:nth-child(4):hover::after {
+  background: #7070db;
+}
+/* line 102, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box .helper {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  position: relative;
+  -ms-transform: skewX(10deg);
+  -moz-transform: skewX(10deg);
+  -webkit-transform: skewX(10deg);
+  -o-transform: skewX(10deg);
+  transform: skewX(10deg);
+}
+/* line 110, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box .front,
+.facts .fact-box .back {
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+  padding-left: 16px;
+  padding-right: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 125, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box .front {
+  opacity: 1;
+}
+/* line 128, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-box .back {
+  visibility: hidden;
+  opacity: 0;
+  color: #000;
+}
+/* line 156, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts p {
+  margin-top: 6px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Helvetica;
+}
+/* line 166, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-number {
+  font-size: 40px;
+  color: #fff;
+  display: inline-block;
+}
+/* line 171, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_factBoxes.sass */
+.facts .fact-unit {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 10px;
+  display: inline-block;
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer {
+  width: 100%;
+  margin: 0 !important;
+  background: #7F913B;
+  font-size: 14px !important;
+  font-family: "Bebas";
+}
+/* line 11, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer div {
+  padding: 10px;
+}
+/* line 14, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer a {
+  display: inline-block;
+  color: black;
+}
+/* line 18, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer input {
+  font-family: Arial;
+  display: inline-block;
+}
+/* line 22, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer .input-group {
+  display: inline-block;
+  width: 70%;
+}
+/* line 26, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass */
+footer input[type="submit"] {
+  padding: 10px;
+  background: #e7e7e7;
+  color: #000;
+  border: none;
+  outline: none;
+  float: right !important;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  width: auto;
+  text-transform: uppercase;
+  font-family: "Bebas";
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  display: inline-block;
+  margin-top: 5px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_header.sass */
+header {
+  position: relative;
+}
+/* line 6, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_header.sass */
+header ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 25px;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 16, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_header.sass */
+header ul li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+}
+/* line 21, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_header.sass */
+header iframe {
+  width: 100%;
+  height: calc(100% - 70px);
+  margin-top: 70px;
+  border: none;
+  outline: none;
+  pointer-events: none;
+}
+
+/* line 29, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_header.sass */
+#facts-header img {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 4, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-md-6 {
+  padding: 0;
+}
+/* line 7, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6 {
+  padding: 25px;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 12, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6:hover {
+  background: #d6d6d6;
+}
+/* line 15, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6 a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 19, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6 h2 {
+  text-align: center;
+  margin-top: 0;
+}
+/* line 23, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6 img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* line 29, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_index.sass */
+#home-section .col-sm-6 p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+/* line 1, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login {
+  margin-top: 70px;
+}
+/* line 5, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login form > div {
+  padding-bottom: 20px;
+  overflow: auto;
+}
+/* line 9, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login form > div:last-child {
+  padding-bottom: 0;
+}
+/* line 12, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login .row {
+  overflow: auto;
+}
+/* line 15, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login input[type="submit"] {
+  padding: 10px;
+  background: #7F913B;
+  color: #000;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  width: auto;
+  text-transform: uppercase;
+  font-family: "Bebas";
+}
+/* line 28, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_login.sass */
+#login p {
+  margin: 0;
+  padding: 0;
+  color: #f00;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section {
+  background: rgba(231, 231, 231, 0.8);
+  color: #000;
+  position: relative;
+}
+/* line 9, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("/assets/paper.jpg");
+  z-index: -1;
+}
+@media (min-width: 768px) {
+  /* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+  section {
+    padding: 50px 90px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+  section {
+    padding: 20px;
+  }
+}
+/* line 27, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section h1,
+section h2,
+section h3 {
+  font-family: "Sketch";
+}
+/* line 32, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section h1 {
+  margin-bottom: 40px;
+  font-size: 72px;
+}
+/* line 36, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section h2 {
+  font-size: 48px;
+}
+/* line 39, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section article {
+  margin-bottom: 40px;
+}
+/* line 42, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section article:last-child {
+  margin-bottom: 0;
+}
+/* line 45, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section article h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+@media (min-width: 768px) {
+  /* line 50, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+  section .col-sm-4 {
+    border-left: 1px solid #ccc;
+  }
+}
+/* line 54, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section ul {
+  font-size: 18px;
+}
+/* line 57, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+section p {
+  font-size: 18px;
+}
+
+/* line 60, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_main.sass */
+textarea {
+  color: black;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 32, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav {
+  background-color: transparent !important;
+  padding: 10px 25px 0 25px;
+  border: none;
+  min-height: 60px;
+  -ms-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+/* line 40, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav.dark {
+  background: #2F6100 !important;
+}
+/* line 43, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav.affix {
+  background: #2F6100 !important;
+}
+/* line 47, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav .navbar-header button {
+  margin-top: 8px;
+  margin-bottom: 18.25px;
+}
+/* line 51, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav .navbar-header img {
+  height: 50px;
+  padding-right: 10px;
+}
+/* line 55, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav .navbar-header a:hover {
+  color: #ADD25F !important;
+}
+/* line 57, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav a {
+  display: table-cell !important;
+  vertical-align: middle;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-decoration: none !important;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 71, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav a:hover {
+  color: #ADD25F !important;
+}
+/* line 74, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav a p {
+  font-family: Sketch;
+  display: inline-block;
+  font-size: 35px;
+}
+/* line 79, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav .navbar-right a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+/* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+nav .navbar-right a::after {
+  content: "";
+  position: absolute;
+  background: #ADD25F;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  /* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+  nav .navbar-right a::after {
+    width: 0;
+    height: 5px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 767px) {
+  /* line 83, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+  nav .navbar-right a::after {
+    width: 5px;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 768px) {
+  /* line 106, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+  nav .navbar-right a:hover::after {
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 106, /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_nav.sass */
+  nav .navbar-right a:hover::after {
+    height: 75%;
+  }
+}
