@@ -1,41 +1,59 @@
-html {
-    height: 100%;
-    width: 100%;
-}
+@import 'imports.sass';
 
-body {
-    overflow-x: hidden;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+// html {
+//     height: 100%;
+//     width: 100%;
+// }
 
-.dots {
-    position: absolute;    
-    //width: 0 !important;
-    // height: 0 !important;
-}
+// body {
+//     overflow-x: hidden;
+//     height: 100%;
+//     width: 100%;
+//     padding: 0;
+//     margin: 0;
+// }
 
-.animation {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.logo-container {
-    margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    overflow: visible;
-    position: relative;
+.col-md-4,
+.col-md-8 {
+	height: 100%;
+	position: relative;
 }
 
 .logo {
-    position: absolute;
-    left: -400px; //was -160px
-    top: -250px;
+	position: absolute;
+	top: 5%;
+	left: 25%
 }
+
+.text {
+	@include xy-center;
+}
+
+.dots {
+  position: absolute;    
+  //width: 0 !important;
+  // height: 0 !important;
+}
+
+.animation {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+// .logo-container {
+//   margin: 0 auto;
+//   top: 50%;
+//   left: 50%;
+//   overflow: visible;
+//   position: relative;
+// }
+
+// .logo {
+//   position: absolute;
+//   left: -400px; //was -160px
+//   top: -250px;
+// }
 
 $green: #ADD25F; 
 $dark-blue: #4A70B6;
@@ -69,19 +87,21 @@ $light-blue: #8CC6EC;
 }
 
 #animation-text {
-	position: absolute;
-	left: -70px;
-	top: -80px;
+	// position: absolute;
+	// left: -70px;
+	// top: -80px;
 	font-size:140px;
 	font-family: Sketch;
 }
 
 #animation-caption {
-	position: absolute;
-	left: -45px;
-	top:100px;
+	// position: absolute;
+	// left: -45px;
+	// top:100px;
 	font-size: 32px;
 	font-style: italic;
+	text-align: center;
+	margin-top: -40px;
 }
 
 #blue {

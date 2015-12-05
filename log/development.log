@@ -66931,6 +66931,7 @@ Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 20:02:43 -
 
 
 Started GET "/assets/earth-rotating2.mp4" for 127.0.0.1 at 2015-12-04 20:02:49 -0800
+<<<<<<< HEAD
 
 
 Started GET "/about" for 127.0.0.1 at 2015-12-04 20:45:34 -0800
@@ -67555,3 +67556,11 @@ Started GET "/assets/application.self-44978d3e2659902e5223dc800fd2aabd9274535841
 
 
 Started GET "/assets/PivotWithDrops.JPG" for 127.0.0.1 at 2015-12-04 20:49:23 -0800
+=======
+Warning. Error encountered while saving cache c4dc2a43e2268ea4d9fcdcbe161840086985c24b/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/iqover9000/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/rake/task.rb:240)
+Warning. Error encountered while saving cache c4dc2a43e2268ea4d9fcdcbe161840086985c24b/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/iqover9000/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/rake/task.rb:240)
+>>>>>>> 9c99ee66b3dbe2dfcf57134d98d844599c2af40c
