@@ -1,8 +1,21 @@
 @import '../imports.sass'
 
 section
-	background: #e7e7e7
+	background: rgba(53,92,99,1) //was #e7e7e7
 	color: #000
+	position: relative
+
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 100%
+		top: 0
+		bottom: 0
+		right: 0
+		left: 0
+		background-image: url("/assets/water-grey.jpg")
+		z-index: -1
 
 	@media (min-width: $screen-sm)
 		padding: 50px 90px
