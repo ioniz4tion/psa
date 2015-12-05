@@ -4,7 +4,7 @@
 
 	<head>
 
-		<title>H2-Whoa</title>
+		<title>H2Whoa!</title>
 
 		<!-- import stylesheets -->
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
@@ -83,12 +83,14 @@
 
 				<div class="col-sm-6">
 					<div><span>Sign up below for email updates:</span></div>
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
-						<span class="input-group-btn">
-        					<input type="submit" value="Submit">
-      					</span>
-					</div>
+					<form action="">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
+							<!-- <span class="input-group-btn"> -->
+	  					<!-- </span> -->
+						</div>
+	    					<input type="submit" value="Submit">
+	    		</form>
 				</div>
 
 			</footer>

@@ -67570,3 +67570,6 @@ DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/r
 Warning. Error encountered while saving cache 4f6d086086cc56c83be6544529e511e2aa507edb/application.css.sassc: can't dump hash with default proc
 
 DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rake/task.rb:240)
+WARNING on line 8 of /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass:
+This selector doesn't have any properties and will not be rendered.
+
