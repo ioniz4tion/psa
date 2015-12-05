@@ -70,12 +70,22 @@
 			background: #555
 			z-index: -1
 
+			+transition(all 0.3s ease-in-out)
+
+		p
+			+transition(all 0.3s ease-in-out)
+
 		&:hover
+			p
+				color: #000
+
 			.front
 				visibility: hidden
+				opacity: 0
 
 			.back
 				visibility: visible
+				opacity: 1
 
 		&:nth-child(1):hover::after
 			background: #23A9E1
@@ -110,8 +120,15 @@
 			left: 0
 			right: 0
 
+			+transition(all 0.3s ease-in-out)
+
+		.front
+			opacity: 1
+
 		.back
 			visibility: hidden
+			opacity: 0
+			color: #000
 
 	// .fact-box:hover
 
