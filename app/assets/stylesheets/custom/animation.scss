@@ -40,8 +40,12 @@ body {
     	left: -35%
     }
 
-    @media (max-width: 1200px) {
-    	left: -45%
+    @media (min-width: 1001px) and (max-width: 1200px) {
+    	left: -41%
+    }
+
+    @media (max-width: 1000px) {
+    	left: -16%
     }
 }
 
@@ -80,6 +84,14 @@ $light-blue: #8CC6EC;
 	position: absolute;
 	left: -9.68%;
 	top: -80px;
+
+	@media (min-width: 1001px) and (max-width: 1200px) {
+  	left: -13%
+  }
+
+  @media (max-width: 1000px) {
+  	left: -30%
+  }
 }
 
 #animation-text {
