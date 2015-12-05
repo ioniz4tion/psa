@@ -67564,3 +67564,9 @@ Warning. Error encountered while saving cache c4dc2a43e2268ea4d9fcdcbe1618400869
 
 DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/iqover9000/Documents/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/iqover9000/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/rake/task.rb:240)
 >>>>>>> 9c99ee66b3dbe2dfcf57134d98d844599c2af40c
+Warning. Error encountered while saving cache 4f6d086086cc56c83be6544529e511e2aa507edb/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rake/task.rb:240)
+Warning. Error encountered while saving cache 4f6d086086cc56c83be6544529e511e2aa507edb/application.css.sassc: can't dump hash with default proc
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from call at /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rake/task.rb:240)
