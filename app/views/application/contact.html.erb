@@ -4,29 +4,29 @@
 
 	<h1>Contact <span>Us</span></h1>
 
-  <div>
+  <!-- <div>
 
     <div class="col-sm-3">
       <%= image_tag("logo.png") %>
     </div>
 
     <div class="col-sm-9">
-      <!-- <h2></h2> -->
+      <h2></h2>
       <p>Write stuff here.</p>
     </div>
 
-  </div>
+  </div> -->
 
-  <div id="info">
+  <div id="info" class="row">
 
-    <div class="col-sm-2">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon-envelope"></span>
       <div>
         <a href="mailto:info@h2whoa.com">info@h2whoa.com</a>
       </div>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon-earphone"></span>
       <div>
         <p>(208) 555-0114</p>
@@ -100,6 +100,6 @@
 
 <script>
   $(document).ready(function(){
-    $('nav').addClass('affix')
+    $('nav').addClass('affix').addClass('dark')
   })
 </script>
