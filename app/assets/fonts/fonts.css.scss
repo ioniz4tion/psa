@@ -27,14 +27,14 @@
 }
 
 @font-face {
-    font-family: 'Sketch';
-    src: url('sketch-webfont.eot');
-    src: url('sketch-webfont.eot?#iefix') format('embedded-opentype'),
-         url('sketch-webfont.woff2') format('woff2'),
-         url('sketch-webfont.woff') format('woff'),
-         url('sketch-webfont.ttf') format('truetype'),
-         url('sketch-webfont.svg#sketch_matchregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Sketch';
+  src: font-url('sketch-webfont.eot');
+  src: font-url('sketch-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('sketch-webfont.woff2') format('woff2'),
+       font-url('sketch-webfont.woff') format('woff'),
+       font-url('sketch-webfont.ttf') format('truetype'),
+       font-url('sketch-webfont.svg#sketch_matchregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 
 }
