@@ -67576,3 +67576,5 @@ This selector doesn't have any properties and will not be rendered.
 WARNING on line 8 of /home/zack/rails/psa/app/assets/stylesheets/custom/partials/_footer.sass:
 This selector doesn't have any properties and will not be rendered.
 
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/zack/rails/psa/app/assets/fonts/fonts.css.scss to /home/zack/rails/psa/app/assets/fonts/fonts.scss. (called from call at /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rake/task.rb:240)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/zack/rails/psa/app/assets/fonts/fonts.css.scss to /home/zack/rails/psa/app/assets/fonts/fonts.scss. (called from call at /home/zack/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rake/task.rb:240)
