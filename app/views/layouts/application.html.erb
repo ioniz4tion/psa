@@ -70,15 +70,15 @@
 					<div><%= link_to 'About Us', '/about' %></div>
 					<div><%= link_to 'Credits', '/credits' %></div>
 					<!-- <a href="#">Site Map</a> -->
+					<div><%= link_to 'Contact Us', '/contact' %></div>
+				</div>
+
+				<div class="col-sm-3">
 					<% if admin_signed_in? %>
 						<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
 					<% else %>
 						<div><%= link_to 'Admin Login', admin_session_path %></div>
 					<% end %>
-				</div>
-
-				<div class="col-sm-3">
-					<div><%= link_to 'Contact Us', '/contact' %></div>
 				</div>
 
 				<div class="col-sm-6">

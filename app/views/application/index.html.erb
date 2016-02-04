@@ -99,46 +99,58 @@
 
 	<h1>H<sub>2</sub>Whoa!</h1>
 
-	<p>Welcome to H<sub>2</sub>Whoa! This is a website where you educate yourself about many aspects of water conservation and it’s importance. Our goal is to help inform you on how crucial it is to help conserve water in order to save the world, and every little contribution helps. However it is also within our intention to provide not only facts, but other intriguing and interesting information about the U.S and the rest of the world!</p>
+	<p>Welcome to H<sub>2</sub>Whoa! This is a website where you educate yourself about many aspects of water conservation and its importance. Our goal is to help inform you on how crucial it is to help conserve water in order to save the world, and every little contribution helps. However, it is also within our intention to provide not only facts, but other intriguing and interesting information about the U.S and the rest of the world!</p>
 
 	<div class="row">
 
 		<div class="col-md-6">
 
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="facts-link">
 				<a href="/facts">
 					<h2>Facts</h2>
 					<%= image_tag ('paper-color-01') %>
 					<p>Learn some interesting facts about water usage</p>
 				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
 			</div>
 
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="indoors-link">
 				<a href="/indoors">
 					<h2>Indoors</h2>
 					<%= image_tag ('house-color-01') %>
 					<p>Learn how to conserve water inside your house</p>
 				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
 			</div>
 
 		</div>
 
 		<div class="col-md-6">
 
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="outdoors-link">
 				<a href="/outdoors">
 					<h2>Outdoors</h2>
 					<%= image_tag ('cloud2-color-01') %>
 					<p>Learn how to conserve water outside your house</p>
 				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
 			</div>
 
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="why-link">
 				<a href="/why">
 					<h2>Why</h2>
 					<%= image_tag ('Why-color-01') %>
 					<p>Learn why it's important to conserve water</p>
 				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
 			</div>
 
 		</div>

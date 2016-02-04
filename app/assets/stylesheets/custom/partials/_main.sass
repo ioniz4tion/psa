@@ -2,6 +2,7 @@
 
 section
 	// background: rgba(35, 169, 225, 0.7) //was #e7e7e7 or rgba(53,92,99,1)
+	padding: 50px 10%
 	background: rgba(231,231,231,0.8)
 	color: #000
 	position: relative
@@ -18,26 +19,31 @@ section
 		background-image: url("/assets/paper.jpg")
 		z-index: -1
 
-	@media (min-width: $screen-sm)
-		padding: 50px 90px
+	// @media (min-width: $screen-sm)
+	// 	padding: 50px 90px
 
-	@media (max-width: $screen-sm - 1)
-		padding: 20px
+	// @media (max-width: $screen-sm - 1)
+	// 	padding: 20px
 
-	h1,
-	h2,
-	h3
-		font-family: 'Sketch'
+	// h1,
+	// h2,
+	// h3
+	// 	font-family: 'Sketch'
 
 	h1
 		margin-bottom: 40px
-		font-size: 72px
+		font-family: '101 Block LetterZ'
+		// font-size: 50px
+		text-transform: uppercase
+	// 	font-size: 72px
 
 	h2
-		font-size: 48px
+		// font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 2px
 
 	article
-		margin-bottom: 40px
+		margin-bottom: 50px
 
 		&:last-child
 			margin-bottom: 0
@@ -47,18 +53,23 @@ section
 			// border-bottom: 1px solid #355c63
 			border-bottom: 1px solid #999
 
-	.col-sm-4
-		@media (min-width: $screen-sm)
-			border-left: 1px solid #ccc
+	// .col-sm-4
+	// 	@media (min-width: $screen-sm)
+	// 		border-left: 1px solid #ccc
 
-	.less-margin
-		border-left: none !important
+	// .less-margin
+	// 	border-left: none !important
+
+	.col-sm-4
+		img
+			width: 100%
 
 	ul
 		font-size: 18px
 
 	p
 		font-size: 18px
+		line-height: 1.8
 
 textarea
 	color: black
