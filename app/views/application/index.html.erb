@@ -1,55 +1,194 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
+<header>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active" style="background-image:url('http://placehold.it/1170x500')">
-        <div class="main">
-          <div class="earth-image-extension">
-            <%= image_tag("water-earth", size: "1500x900") %>
-          </div>
-        </div>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-        <div class="info-box">
-          <h2>Water Earth</span>
-          <p>Earth is over x% water, but only 3% of it is freshwater which we are rapidly using</p>
-          <div class="learn-more">
-            <span>Learn More</span>
-          </div>
-        </div>
-      <!-- <img src="http://placehold.it/1170x500"> -->
-    </div>
-    <div class="item" style="background-image:url('http://placehold.it/2170x600')">
-      <!-- <img src="http://placehold.it/1170x600"> -->
-    </div>
-  </div>
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active" duration="1000"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<!--<li data-target="#carousel-example-generic" data-slide-to="3"></li>-->
+		</ol>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active" style="background-color: black;" duration="1000">
+
+				<%= render "templates/animation" %>
+
+			</div>
+
+			<div class="item" id="earth-video-slide">
+
+				<!-- <video autoplay loop poster="" id="earth-vid">
+					<source src="/assets/earth-rotating2.mp4" type="video/mp4">
+				</video> -->
+
+				<script id="vertexShader" type="x-shader/x-vertex">
+			uniform vec3 viewVector;
+			uniform float c;
+			uniform float p;
+			varying float intensity;
+			
+			void main({
+    			vec3 vNormal = normalize( normalMatrix * normal );
+				vec3 vNormel = normalize( normalMatrix * viewVector );
+				intensity = pow( c - dot(vNormal, vNormel), p );
+	
+    			gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+			}
+		</script>
+
+		<script id="fragmentShader" type="x-shader/x-fragment"> 
+			uniform vec3 glowColor;
+			varying float intensity;
+
+		void main() {
+			vec3 glow = glowColor * intensity;
+    		gl_FragColor = vec4( glow, 1.0 );
+		}
+		</script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/three.js/r63/three.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/orbitcontrols.js'></script>
+        <script src="js/index.js"></script>
+      
+<div id="earth"></div>
+      
+<button onClick="test()">Click</button>
+				
+				<div class="carousel-caption slideshow-caption">
+					<h3>Water Earth</h3>
+					<p>Earth's surface is over two thirds water, but only 3% of that is freshwater, which we are rapidly using.</p>
+				</div>
+			</div>
+
+			<div class="item" style="background-image:url('/assets/wave.jpg'); background-position:center; background-size:contain; background-repeat:no-repeat; background-size: cover;">
+				<div class="carousel-caption slideshow-caption">
+					<h3>The Ocean</h3>
+					<p>The Atlantic Ocean contains over 82 million billion gallons of water, but is mostly unusable to humans due to salt.</p>
+				</div>
+			</div>
+			
+			<!--<div class="item" style="background-image:url('/assets/water-drop.jpg'); background-position:center; background-size:contain; background-repeat:no-repeat; background-size: cover;">
+				<div class="carousel-caption">
+					<h3>Water</h3>
+					<p><br/>
+						<a href="#">Learn More</a>
+					</p>
+				</div>
+			</div>-->
+
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+
+</header>
+
+<div class="facts row">
+
+	<% i = 0 %>
+	<% @factbox.each do |factbox| %>
+	  	<% i += 1 %>
+
+	  <% if i % 2 == 1 %>
+	  	<div class="col-md-6">
+	  <% end %>
+
+	  <div class="col-sm-6">
+
+		 	<div class="fact-box" id="fact-box<%= i %>"> 
+				<div class="helper">
+					<p><%= bip(factbox,:title) %></p>
+
+					<div class="front">
+						<div class="fact-number"><%= bip(factbox,:number) %></div><div class="fact-unit"><%= bip(factbox,:unit) %></div>
+					</div>
+
+					<div class="back"><%= bip(factbox,:description,:textarea) %></div>
+				</div>
+			</div>
+		</div>
+
+		<% if i % 2 == 0 %>
+	  	</div>
+	  <% end %>
+	    
+	  <% end %>
+
 </div>
 
-<div class="facts">
-  <div> 
-    FactBox 1
-  </div>
-  <div>
-    FactBox 2
-  </div>
-  <div>
-    FactBox 3
-  </div>
-  <div>
-    FactBox 4
-  </div>
-</div>
+<section id="home-section">
+
+	<h1>H<sub>2</sub>Whoa!</h1>
+
+	<p>Welcome to H<sub>2</sub>Whoa! This is a website where you educate yourself about many aspects of water conservation and its importance. Our goal is to help inform you on how crucial it is to help conserve water in order to save the world, and every little contribution helps. However, it is also within our intention to provide not only facts, but other intriguing and interesting information about the U.S and the rest of the world!</p>
+
+	<div class="row">
+
+		<div class="col-md-6">
+
+			<div class="col-sm-6" id="facts-link">
+				<a href="/facts">
+					<h2>Facts</h2>
+					<%= image_tag ('paper-color-01') %>
+					<p>Learn some interesting facts about water usage</p>
+				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
+			</div>
+
+			<div class="col-sm-6" id="indoors-link">
+				<a href="/indoors">
+					<h2>Indoors</h2>
+					<%= image_tag ('house-color-01') %>
+					<p>Learn how to conserve water inside your house</p>
+				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
+			</div>
+
+		</div>
+
+		<div class="col-md-6">
+
+			<div class="col-sm-6" id="outdoors-link">
+				<a href="/outdoors">
+					<h2>Outdoors</h2>
+					<%= image_tag ('cloud2-color-01') %>
+					<p>Learn how to conserve water outside your house</p>
+				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
+			</div>
+
+			<div class="col-sm-6" id="why-link">
+				<a href="/why">
+					<h2>Why</h2>
+					<%= image_tag ('Why-color-01') %>
+					<p>Learn why it's important to conserve water</p>
+				</a>
+				<% for i in 0..5 do %>
+					<div class="div<%= i %>"></div>
+				<% end %>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>

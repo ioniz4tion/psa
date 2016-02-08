@@ -15,13 +15,24 @@
 //= require jquery_ujs
 //= requrie jquery.bxslider
 
-//= require turbolinks
 //= require_tree .
 
-//= require turbolinks
+
+
 //= require best_in_place
 
 $(document).ready(function() {
   /* Activating Best In Place */
   jQuery(".best_in_place").best_in_place();
+
+  $('#carousel-example-generic').carousel({
+        interval: 6000,
+        pause: true
+    });
+
+   setTimeout(function(){ 
+        $("#carousel-example-generic").carousel('cycle');
+    }, 5000);
 });
+
+//= require turbolinks

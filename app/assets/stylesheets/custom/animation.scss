@@ -33,8 +33,20 @@ body {
 
 .logo {
     position: absolute;
-    left: -160px;
+    left: -28.05%; //was -160px
     top: -250px;
+
+    @media (min-width: 1201px) and (max-width: 1400px) {
+    	left: -35%
+    }
+
+    @media (min-width: 1001px) and (max-width: 1200px) {
+    	left: -41%
+    }
+
+    @media (max-width: 1000px) {
+    	left: -16%
+    }
 }
 
 $green: #ADD25F; 
@@ -64,8 +76,44 @@ $light-blue: #8CC6EC;
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #555;
+    background: #000;
     z-index: -1;
+}
+
+.text {
+	position: absolute;
+	left: -9.68%;
+	top: -80px;
+
+	@media (min-width: 1001px) and (max-width: 1200px) {
+  	left: -13%
+  }
+
+  @media (max-width: 1000px) {
+  	left: -30%
+  }
+}
+
+#animation-text {
+	font-size: 100px;
+	font-family: '101 Block LetterZ';
+}
+
+#animation-caption {
+	font-size: 32px;
+	font-style: italic;
+	text-align: center;
+	margin-top: -40px
+}
+
+#blue {
+	color: $blue;
+	display: inline-block;
+}
+
+#green {
+	color: $green;
+	display: inline-block;
 }
 
 .st0

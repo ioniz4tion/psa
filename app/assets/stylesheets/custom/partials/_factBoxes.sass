@@ -1,0 +1,184 @@
+@import '../imports.sass'
+
+.facts
+	height: 100px
+	background: #333
+	position: relative
+	// padding-left: 10px
+	width: 100%
+	margin: 0
+
+	@media (min-width: $screen-sm) and (max-width: $screen-md - 1)
+		height: 220px
+
+	@media (max-width: $screen-sm - 1)
+		height: 460px
+
+	.col-md-6
+		padding: 0
+		height: 100%
+
+		&:first-child
+			padding-left: 20px
+
+			@media (max-width: $screen-md - 1)
+				margin-bottom: 20px
+				padding-left: 10px
+
+		@media (min-width: $screen-sm) and (max-width: $screen-md - 1)
+			height: calc(50% - 10px)
+
+		@media (max-width: $screen-sm - 1)
+			height: calc(50% - 10px)
+
+		&:last-child .col-sm-6:first-child
+			@media (min-width: $screen-md)
+				margin-left: 0
+
+	.col-sm-6
+		padding: 0
+		margin: 0 10px
+		height: 100%
+		width: calc(50% - 25px)
+
+		@media (max-width: $screen-sm - 1)
+			width: calc(100% - 30px)
+			height: calc(50% - 10px)
+			
+			&:first-child
+				margin-bottom: 20px
+
+	.fact-box
+		display: inline-block
+		height: 100%
+		width: 100%
+		// margin: 0 10px
+		position: relative
+		background: transparent
+		z-index: 2
+
+		+transform(skewX(-10deg))
+
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			background: #555
+			z-index: -1
+
+			+transition(all 0.3s ease-in-out)
+
+		p
+			+transition(all 0.3s ease-in-out)
+
+		&:hover
+			p
+				color: #000
+
+			.front
+				visibility: hidden
+				opacity: 0
+
+			.back
+				visibility: visible
+				opacity: 1
+
+		&:nth-child(1):hover::after
+			background: #23A9E1
+
+		&:nth-child(2):hover::after
+			background: #4747d1
+
+		&:nth-child(3):hover::after
+			background: #5c5cd6
+
+		&:nth-child(4):hover::after
+			background: #7070db
+
+		.helper
+			width: 100%
+			height: 100%
+			padding: 0 10px
+			position: relative
+
+			+transform(skewX(10deg))
+
+		.front,
+		.back
+			width: 100%
+			height: 100%
+			padding-top: 25px
+			padding-left: 16px
+			padding-right: 15px
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+
+			+transition(all 0.3s ease-in-out)
+
+		.front
+			opacity: 1
+
+		.back
+			visibility: hidden
+			opacity: 0
+			color: #000
+
+	// .fact-box:hover
+
+	// 	.fact-number
+	// 		display: none !important
+
+	// 	.fact-unit
+	// 		display: none
+
+	// 	.rollover-text
+	// 		display: block
+
+	// #fact-box1:hover
+	// 	background: #33c
+
+	// #fact-box2:hover
+	// 	background: #4747d1
+
+	// #fact-box3:hover
+	// 	background: #5c5cd6
+
+	// #fact-box4:hover
+	// 	background: #7070db
+
+	p
+		margin-top: 6px
+		margin-left: 6px
+		margin-bottom: 8px
+		font-size: 13px
+		font-weight: bold
+		text-transform: uppercase
+		color: #fff
+		font-family: Helvetica
+
+	.fact-number
+		font-size: 40px
+		color: #fff
+		display: inline-block
+
+	.fact-unit
+		font-size: 12px
+		// color: #888
+		vertical-align: middle
+		margin-left: 10px
+		display: inline-block
+
+	// .rollover-text
+	// 	font-size: 14px
+	// 	color: #fff
+	// 	vertical-align: top
+	// 	margin: 6px
+	// 	font-family: droid sans
+	// 	display: none

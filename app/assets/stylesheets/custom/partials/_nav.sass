@@ -1,4 +1,4 @@
-//@import '../imports.sass'
+@import '../imports.sass'
 
 //nav
 //	margin-bottom: 0 !important
@@ -28,3 +28,95 @@
 //				padding: 20px 50px !important
 //				background: #000
 //				color: #fff
+
+nav
+	background: #2F6100 !important
+	margin-bottom: 0 !important
+	padding: 0 25px
+	border: none
+	min-height: 60px
+
+	+transition(background 0.5s ease-in-out)
+
+	.navbar-header
+		height: 70px
+		padding: 10px 0
+		font-family: '101 Block LetterZ'
+		font-size: 25px
+
+		button
+			margin-top: 8px
+			margin-bottom: 18.25px
+
+		img
+			height: 50px
+			padding-right: 10px
+
+		a
+			height: 50px
+			padding: 10px 0
+
+		a:hover
+			color: #ADD25F !important
+	a
+		display: table-cell !important
+		vertical-align: middle
+		// height: 100%
+		padding-top: 0 !important
+		padding-bottom: 0 !important
+		position: relative
+		color: #fff !important
+		text-transform: uppercase
+		// font-size: 24px
+		text-decoration: none !important
+
+		@include transition(all 0.3s ease)
+
+		&:hover
+			color: #ADD25F !important
+
+		p
+			font-family: '101 Block LetterZ'
+			display: inline-block
+			font-size: 25px
+
+	.navbar-collapse
+		max-height: 1000px !important
+
+	.navbar-right a
+		padding-top: 25px !important
+		padding-bottom: 25px !important
+		font-size: 16px
+		font-weight: 700
+		letter-spacing: 2px
+		word-spacing: 3px
+
+		&::after
+			content: ''
+			// display: block
+			position: absolute
+			background: #ADD25F
+
+			@include transition(all 0.3s ease)
+
+			@media (min-width: $screen-sm)
+				width: 0
+				height: 5px
+				bottom: 0
+
+				@include x-center
+
+			@media (max-width: $screen-sm - 1)
+				width: 5px
+				height: 0
+				left: 0
+				top: 0
+
+				@include y-center
+
+		&:hover::after
+			@media (min-width: $screen-sm)
+				width: 90%
+
+			@media (max-width: $screen-sm - 1)
+				height: 75%

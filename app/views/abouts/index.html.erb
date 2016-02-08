@@ -1,40 +1,38 @@
-<div id="abouts">
+<section id="abouts">
 
 	<h1>About Us</h1>
 
 	<% @abouts.order(:name).each do |about| %>
 
-		<div>
+		<article>
+				
+			<h2><%= bip(about, :name) %></h2>
 
-			<div  class="col-sm-3">
+			<div class="col-sm-3">
 				<%= image_tag(about.image.url) %>
+				<%= cms_upload(about, :image, "Upload Portrait") %>
 			</div>
 
-			<%= cms_upload(about, :image, "Upload Portrait") %>
-
 			<div class="col-sm-9">
-				<h2><%= bip(about, :name) %></h2>
 				<p><%= bip(about, :description, :textarea) %></p>
 
-				<table>
-					<tr>
+				<div>
 
-						<td>
+						<div class="col-sm-6">
 							<span class="glyphicon glyphicon-envelope"></span>
 							<div>
 								<a href="mailto:<%= about.email %>"><%= bip(about, :email) %></a>
 							</div>
-						</td>
+						</div>
 
-						<td>
+						<div class="col-sm-6">
 							<span class="glyphicon glyphicon-earphone"></span>
 							<div>
 								<p><%= bip(about, :phone) %></p>
 							</div>
-						</td>
+						</div>
 
-					</tr>
-				</table>
+				</div>
 
 			</div>
 
@@ -42,12 +40,16 @@
 				<%= cms_delete(about) %>
 			</div>
 
-		</div>
-
-		<hr>
+		</article>
 
 	<% end %>
 
 	<%= cms_add(abouts_path, "Add Person") %>
 
-</div>
+</section>
+
+<script>
+  $(document).ready(function(){
+    $('nav').addClass('affix').addClass('dark')
+  })
+</script>

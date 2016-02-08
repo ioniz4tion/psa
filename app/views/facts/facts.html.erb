@@ -1,5 +1,187 @@
-<div class="main">
-          <div class="earth-image-extension">
-            <%= image_tag("water-earth", size: "1500x650") %>
-          </div>
-        </div>
+<header id="facts-header">
+
+	<!-- <div class="carousel-caption">
+		<h3>Water Molecules</h3>
+		<p>Water is composed of water molecules, two hydrogen atoms and one oxygen atom.</p>
+	</div> -->
+	<!-- <ul>
+		<li><a href="#depletion">Depletion</a></li>
+		<li><a href="#ice-caps">Ice Caps</a></li>
+		<li><a href="#groundwater">Groundwater</a></li>
+		<li><a href="#sahara">Sub-Saharan Africa</a></li>
+	</ul> -->
+
+	<div id="canvas-holder">
+        <canvas id="chart-area" width="600" height="600" />
+    </div>
+    <button id="USData">United States</button>
+    <button id="GermanyData">Germany</button>
+    <button id="EthiopiaData">Ethiopia</button>
+    <script>
+
+    var config = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                ],
+                backgroundColor: [
+                    "#F7464A",
+                    "#46BFBD",
+                    "#FDB45C",
+                    "#949FB1",
+                    "#4D5360",
+                ]
+            }],
+            labels: [
+                "Red",
+                "Green",
+                "Yellow",
+                "Grey",
+                "Dark Grey"
+            ]
+        },
+        options: {
+            responsive: true
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myPie = new Chart(ctx, config);
+    };
+
+    $('#USData').click(function() {
+        config.data.datasets[0].data = [10,15,17,20,30];   
+        window.myPie.update();
+    });
+    
+    $('#GermanyData').click(function() {
+         config.data.datasets[0].data = [20,7,8,15,20];   
+         window.myPie.update();
+    });
+    
+    $('#EthiopiaData').click(function() {
+         config.data.datasets[0].data = [3,5,6,10,38];   
+         window.myPie.update();
+    });
+    
+
+  
+    
+    </script>
+
+</header>
+
+<section>
+
+	<h1>Water Conservation Facts</h1>
+
+	<article id="depletion">
+
+		<h2>Water Depletion</h2>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<%= image_tag("info/bottle") %>
+			</div>
+
+			<div class="col-sm-8">
+				<p>Water conservation is extremely crucial for the wellbeing of the Earth and all its inhabitants. Recently, we have been depleting more water than can be replaced naturally over decade-long periods. Our current aquifers have been declining at alarming rates, and our source of water will only continue to drop as population and our reliance on these aquifers grow. The consequences are critical, and these are all the more reasons to conserve water!</p>
+
+				<p>More Information:</p>
+
+				<ul>
+					<li><a href="https://www.washingtonpost.com/news/wonk/wp/2015/06/16/new-nasa-studies-show-how-the-world-is-running-out-of-water/" target="_blank">Washington Post</a></li>
+					<li><a href="http://water.usgs.gov/edu/gwdepletion.html" target="_blank">United States Geological Survey</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</article>
+
+	<article id="ice-caps">
+
+		<h2>Freshwater in Ice Caps</h2>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<%= image_tag("info/ice") %>
+			</div>
+
+			<div class="col-sm-8">
+				<p>Although the Earth consists mainly of water, only 3% of all of Earth's water is freshwater. Among the 3%, just 1% of our freshwater is easily accessible, with much of it trapped in glaciers and snowfields. In essence, only 0.007% of the planet's water is available to fuel and feed its 7.4 billion people. However, the glaciers contain 68.7% of all of Earth’s freshwater, and provide hope for a large supplement of clean drinkable water!</p>
+
+				<p>More Information:</p>
+
+				<ul>
+					<li><a href="http://water.usgs.gov/edu/watercycleice.html" target="_blank">United States Geological Survey</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</article>
+
+	<article id="groundwater">
+
+		<h2>Inaccessible Groundwater</h2>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<%= image_tag("info/groundwater") %>
+			</div>
+
+			<div class="col-sm-8">
+				<p>The second largest source of freshwater is right under our noses. 30.1% of freshwater is groundwater. However, only 45% of groundwater is accessible. The other 55% is too far underground for us to be able to reach it right now. Since the Earth is extremely limited in freshwater, we all have to pitch in to make a difference!</p>
+
+				<p>More Information:</p>
+
+				<ul>
+					<li><a href="http://water.usgs.gov/edu/earthwherewater.html" target="_blank">Water Distribution - US Geological Survey</a></li>
+					<li><a href="http://water.usgs.gov/edu/watercyclegwstorage.html" target="_blank">Water Cycle - US Geological Survey</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</article>
+
+	<article id="sahara">
+
+		<h2>Sub-Saharan Africa Water Usage</h2>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<%= image_tag("info/sahara") %>
+			</div>
+
+			<div class="col-sm-8">
+				<p>Sub-Saharan Africa is living proof that humans can live with 90% or more reduction to our water, and that we should use water much more sparingly. Sub-Saharan Africa is located just south of the Sahara Desert in Africa. The residents of this location only use 2-5 gallons daily while the average American uses roughly 100. We should strive to have as small of a water footprint as possible.</p>
+
+				<p>More Information:</p>
+
+				<ul>
+					<li><a href="http://atthewaterline.com/water-facts/" target="_blank">At The Water Line</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</article>
+
+</section>

@@ -4,13 +4,16 @@
 
 	<head>
 
-		<title>H2-Whoa</title>
+		<title>H2Whoa!</title>
 
 		<!-- import stylesheets -->
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
 
-		
+		<link rel="icon" type="image/png" href="/assets/favicon.png">
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 
 		<!-- import javascripts -->
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -24,116 +27,89 @@
 
 	<body>
 
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<!--THESE ARE FOR THE USER ALERTS. PUT THEM SOMEWHERE PLZ AND THANKS.-->
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-		<div class="navbar-header">
-  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-    		<span class="sr-only">Toggle navigation</span>
-    		<span class="icon-bar"></span>
-    		<span class="icon-bar"></span>
-    		<span class="icon-bar"></span>
-  		</button>
-  		<a href="/home" id="home"><%= image_tag("logo", size: "50x80") %>H2Woah!</a>
-		</div>
+		<!-- <div id="top-bar"></div> -->
 
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<div class="container-fluid">
 
-			<ul class="nav navbar-nav navbar-right">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" id="navToggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="/home" id="home"><%= image_tag("logo") %>H<sub>2</sub>WHOA!</a>
+					</div>
 
-  			<li class="active"><a href="/home">Home</a></li>
-
-  			<li class="dropdown">
-      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Facts<b class="caret"></b></a>
-      		<ul class="dropdown-menu">
-        		<li><a href="/facts">Page Top</a></li>
-        		<li class="divider"></li>
-        		<li><a href="alt-en.html#solar">Solar Panels</a></li>
-        		<li><a href="alt-en.html#wind">Wind Energy</a></li>
-        		<li><a href="alt-en.html#geo">Geothermal Heating</a></li>
-      		</ul>
-    		</li>
-
-  			<li class="dropdown">
-      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">DIY <b class="caret"></b></a>
-      		<ul class="dropdown-menu">
-        		<li><a href="/diy">Page Top</a></li>
-        		<li class="divider"></li>
-        		<li><a href="diy.html#lights">Replace Lights</a></li>
-        		<li><a href="diy.html#pipes">Insulate Pipes</a></li>
-        		<li><a href="diy.html#openings">Seal Openings</a></li>
-        		<li><a href="diy.html#ducts">Repair Ducts</a></li>
-      		</ul>
-    		</li>
-
-  			<li class="dropdown">
-      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Why<b class="caret"></b></a>
-      		<ul class="dropdown-menu">
-        		<li><a href="/why">Page Top</a></li>
-        		<li class="divider"></li>
-        		<li><a href="buying.html#howto">How to Buy</a></li>
-        		<li><a href="buying.html#gogreen">Why Go Green?</a></li>
-        		<li><a href="buying.html#rebates">Government Rebates</a></li>
-        		<li><a href="buying.html#leed">The LEED Ranking System</a></li>
-      		</ul>
-    		</li>
-
-    		<li class="dropdown">
-      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
-      		<ul class="dropdown-menu">
-        		<li><a href="/how">Page Top</a></li>
-        		<li class="divider"></li>
-        		<li><a href="buying.html#howto">How to Buy</a></li>
-        		<li><a href="buying.html#gogreen">Why Go Green?</a></li>
-        		<li><a href="buying.html#rebates">Government Rebates</a></li>
-        		<li><a href="buying.html#leed">The LEED Ranking System</a></li>
-      		</ul>
-    		</li>
-
-    		<li class="dropdown">
-      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
-      		<ul class="dropdown-menu">
-        		<li><a href="/about">Page Top</a></li>
-        		<li class="divider"></li>
-        		<li><a href="about.html#devs">The Developers</a></li>
-            <li><a href="about.html#sources">Sources</a></li>
-        		<li><a href="about.html#info">More Information</a></li>
-      		</ul>
-    		</li>
-
-  		</ul>
-
-		</div>
-
-	</nav>		
-
-	<%= yield %>
-
-		<footer class="row">
-
-			<div class="col-sm-3">
-				<div><%= link_to 'About Us', '/about' %></div>
-				<div><%= link_to 'Credits', '/credits' %></div>
-				<a href="#">Site Map</a>
-				<% if admin_signed_in? %>
-					<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
-				<% else %>
-					<div><%= link_to 'Admin Login', admin_session_path %></div>
-				<% end %>
-			</div>
-
-			<div class="col-sm-3">
-				<div><a href="#">Contact Us</a></div>
-			</div>
-
-			<div class="col-sm-6">
-				<div><span>Sign up below for email updates:</span></div>
-				<div class="input-group">
-					<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
-					<input type="text" class="form-control" placeholder="EMAIL" aria-describedby="basic-addon1">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="/home">Home</a></li>
+							<li><a href="/facts">Facts</a></li>
+							<li><a href="/indoors">Indoors</a></li>
+							<li><a href="/outdoors">Outdoors</a></li>
+							<li><a href="/why">Why</a></li>
+						</ul>
+					</div>
 				</div>
+			</nav>
+
+			<div id="startchange"></div>
+
+			<div class="main">
+
+				<%= yield %>
+
 			</div>
 
-		</footer>
+			<footer class="row">
+
+				<div class="col-sm-3">
+					<div><%= link_to 'About Us', '/about' %></div>
+					<div><%= link_to 'Credits', '/credits' %></div>
+					<!-- <a href="#">Site Map</a> -->
+					<div><%= link_to 'Contact Us', '/contact' %></div>
+				</div>
+
+				<div class="col-sm-3">
+
+					<% if admin_signed_in? %>
+						<div><%= link_to 'Logout', destroy_admin_session_path, method: :delete %></div>
+					<% else %>
+						<div><%= link_to 'Admin Login', admin_session_path %></div>
+					<% end %>
+
+					<div class="social">
+
+						<a class="facebook" href="https://www.facebook.com/H2Whoaaa/?fref=ts" target="_blank"><span class="eleganticon social_facebook"></span></a>
+
+						<a class="twitter" href="https://twitter.com/h2whoa102" target="_blank"><span class="eleganticon social_twitter"></a>
+
+						<a class="instagram" href="https://www.instagram.com/h2whoa102/" target="_blank"><span class="eleganticon social_instagram"></a>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-6">
+					<div><span>Sign up below for email updates:</span></div>
+					<form action="">
+						<div class="input-group">
+				      <input type="text" class="form-control" placeholder="EMAIL">
+				      <span class="input-group-btn">
+				        <input type="submit" value="SUBMIT" class="btn btn-default" type="button">Go!</input>
+				      </span>
+				    </div><!-- /input-group -->
+	    		</form>
+				</div>
+
+			</footer>
+
+		</div>
 
 	</body>
 
