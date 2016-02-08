@@ -30,20 +30,20 @@
 //				color: #fff
 
 nav
-	background-color: transparent !important
+	background: #2F6100 !important
+	margin-bottom: 0 !important
 	padding: 0 25px
 	border: none
 	min-height: 60px
 
 	+transition(background 0.5s ease-in-out)
 
-	&.dark
-		background: #2F6100 !important
-
-	&.affix
-		background: #2F6100 !important
-
 	.navbar-header
+		height: 70px
+		padding: 10px 0
+		font-family: '101 Block LetterZ'
+		font-size: 25px
+
 		button
 			margin-top: 8px
 			margin-bottom: 18.25px
@@ -51,6 +51,10 @@ nav
 		img
 			height: 50px
 			padding-right: 10px
+
+		a
+			height: 50px
+			padding: 10px 0
 
 		a:hover
 			color: #ADD25F !important
@@ -75,6 +79,9 @@ nav
 			font-family: '101 Block LetterZ'
 			display: inline-block
 			font-size: 25px
+
+	.navbar-collapse
+		max-height: 1000px !important
 
 	.navbar-right a
 		padding-top: 25px !important

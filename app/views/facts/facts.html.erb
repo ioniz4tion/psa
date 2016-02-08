@@ -1,16 +1,80 @@
-<header id="facts-header" style="background-image: url('/assets/ocean-under-blur.jpg'); background-position:center; background-size: cover; background-repeat: no-repeat;">
-	<%= image_tag("water-molecule") %>
+<header id="facts-header">
 
-	<div class="carousel-caption">
+	<!-- <div class="carousel-caption">
 		<h3>Water Molecules</h3>
 		<p>Water is composed of water molecules, two hydrogen atoms and one oxygen atom.</p>
-	</div>
+	</div> -->
 	<!-- <ul>
 		<li><a href="#depletion">Depletion</a></li>
 		<li><a href="#ice-caps">Ice Caps</a></li>
 		<li><a href="#groundwater">Groundwater</a></li>
 		<li><a href="#sahara">Sub-Saharan Africa</a></li>
 	</ul> -->
+
+	<div id="canvas-holder">
+        <canvas id="chart-area" width="600" height="600" />
+    </div>
+    <button id="USData">United States</button>
+    <button id="GermanyData">Germany</button>
+    <button id="EthiopiaData">Ethiopia</button>
+    <script>
+
+    var config = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                ],
+                backgroundColor: [
+                    "#F7464A",
+                    "#46BFBD",
+                    "#FDB45C",
+                    "#949FB1",
+                    "#4D5360",
+                ]
+            }],
+            labels: [
+                "Red",
+                "Green",
+                "Yellow",
+                "Grey",
+                "Dark Grey"
+            ]
+        },
+        options: {
+            responsive: true
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myPie = new Chart(ctx, config);
+    };
+
+    $('#USData').click(function() {
+        config.data.datasets[0].data = [10,15,17,20,30];   
+        window.myPie.update();
+    });
+    
+    $('#GermanyData').click(function() {
+         config.data.datasets[0].data = [20,7,8,15,20];   
+         window.myPie.update();
+    });
+    
+    $('#EthiopiaData').click(function() {
+         config.data.datasets[0].data = [3,5,6,10,38];   
+         window.myPie.update();
+    });
+    
+
+  
+    
+    </script>
 
 </header>
 
