@@ -1,3 +1,52 @@
+@import '../imports.sass'
+
 #canvas-holder
 	margin: 0 auto
 	padding: 20px
+
+.pie-text
+	font-size: 30px
+	font-weight: 700
+	text-transform: uppercase
+
+	@media (min-width: $screen-lg)
+		right: 77%
+
+		+y-center
+
+	@media (max-width: $screen-lg - 1)
+		padding: 10px 0
+		text-align: center
+
+	p
+		margin: 0 !important
+
+.buttons
+	display: table
+
+	@media (min-width: $screen-lg)
+		left: 77%
+
+		+y-center
+
+	@media (max-width: $screen-lg - 1)
+		margin: 0 auto
+	// 	+x-center
+
+	button
+		padding: 10px
+		background: transparent
+		border: none
+		outline: none
+		text-transform: uppercase
+
+		+transition(all 0.3s)
+
+		@media (min-width: $screen-lg)
+			display: block
+
+		@media (max-width: $screen-lg - 1)
+			display: inline-block
+
+		&:hover
+			color: #ADD25F

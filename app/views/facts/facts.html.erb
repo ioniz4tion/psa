@@ -11,12 +11,20 @@
 		<li><a href="#sahara">Sub-Saharan Africa</a></li>
 	</ul> -->
 
+	<div class="pie-text">
+		<p>United States</p>
+	</div>
+
 	<div id="canvas-holder">
         <canvas id="chart-area" width="600" height="600" />
     </div>
-    <button id="USData">United States</button>
-    <button id="GermanyData">Germany</button>
-    <button id="EthiopiaData">Ethiopia</button>
+
+    <div class="buttons">
+	    <button id="USData">United States</button>
+	    <button id="GermanyData">Germany</button>
+	    <button id="EthiopiaData">Ethiopia</button>
+	  </div>
+	  
     <script>
 
     var config = {
@@ -53,16 +61,19 @@
     $('#USData').click(function() {
         config.data.datasets[0].data = [41,46,13];   
         window.myPie.update();
+        $('.pie-text').html('United States');
     });
     
     $('#GermanyData').click(function() {
          config.data.datasets[0].data = [3,83,14];   
          window.myPie.update();
+        $('.pie-text').html('Germany');
     });
     
     $('#EthiopiaData').click(function() {
          config.data.datasets[0].data = [93,0.5,6];   
          window.myPie.update();
+        $('.pie-text').html('Ethiopia');
     });
     
 
