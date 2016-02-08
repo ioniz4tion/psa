@@ -24,26 +24,20 @@
         data: {
             datasets: [{
                 data: [
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
+                    41,
+                    46,
+                    13
                 ],
                 backgroundColor: [
                     "#F7464A",
                     "#46BFBD",
-                    "#FDB45C",
-                    "#949FB1",
-                    "#4D5360",
+                    "#FDB45C"
                 ]
             }],
             labels: [
-                "Red",
-                "Green",
-                "Yellow",
-                "Grey",
-                "Dark Grey"
+                "Agriculture",
+                "Industrial",
+                "Domestic"
             ]
         },
         options: {
@@ -57,17 +51,17 @@
     };
 
     $('#USData').click(function() {
-        config.data.datasets[0].data = [10,15,17,20,30];   
+        config.data.datasets[0].data = [41,46,13];   
         window.myPie.update();
     });
     
     $('#GermanyData').click(function() {
-         config.data.datasets[0].data = [20,7,8,15,20];   
+         config.data.datasets[0].data = [3,83,14];   
          window.myPie.update();
     });
     
     $('#EthiopiaData').click(function() {
-         config.data.datasets[0].data = [3,5,6,10,38];   
+         config.data.datasets[0].data = [93,0.5,6];   
          window.myPie.update();
     });
     
