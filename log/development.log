@@ -50142,3 +50142,157 @@ DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/r
 Warning. Error encountered while saving cache 4f6d086086cc56c83be6544529e511e2aa507edb/application.css.sassc: can't dump hash with default proc
 
 DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.css.sass to /home/zack/rails/psa/app/assets/stylesheets/application-bootstrap.sass. (called from mon_synchronize at /home/zack/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.9ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 106ms (Views: 105.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/_bootstrap-mincer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap-compass.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap-sprockets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/_bootstrap.self-e5bcb1197d2ca1047e4884869348a5bee90c1a3305bc8f15952ad648d8b4b066.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/application-custom.self-8e0efa4f9215d00d120b99c7b2c34994f7d39b71a4d871716865dfb19cbf7e9d.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/application-bootstrap.self-8e0efa4f9215d00d120b99c7b2c34994f7d39b71a4d871716865dfb19cbf7e9d.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/animation.self-d8b9f74ab3311d37ea10b441b1ee9e330e46ed647ebdcb95420df479a5cb3b19.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/imports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/mixins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_abouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/nav.self-c64621f2326b87eb1b180424ea92159507f7f11bf624864591d88babfe6be08c.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/logo.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_body.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_carousel.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_container.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_footer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_nav.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/custom/partials/_topBar.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/jquery.turbolinks.self-741d5647b61e752f108196da3df074a7954d9b92b445a96955e8ad2f56683c37.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/animation.self-70ea9904c3b094170639d778acb918bf71f54ae3259e4b25a96e0ed34124b05a.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:25 -0800
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/credits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/diy.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/facts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/how.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/jquery.bxslider.self-6edb2fde7a6fe546da37159aa14b7fc3c2ee177f609f8827d0ac28ac224db5a3.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/why.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/jquery.autosize.self-208a4ea73c22b3517889027ffae7a076a0c5b4c38e4b595639979f10ada2ebe4.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/best_in_place.self-736c4c466f6a7ba1a06a77d0ab7a3a3919360435d814a05c8cde33ad81160e6b.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
+
+
+Started GET "/assets/application.self-a51483a727c0fc90a1d1f8910cac1e17676a3c9f2a5cb137e0a351739e33e7a1.js?body=1" for 127.0.0.1 at 2015-11-29 23:48:26 -0800
