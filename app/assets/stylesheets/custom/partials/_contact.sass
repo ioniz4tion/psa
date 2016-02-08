@@ -1,3 +1,5 @@
+@import '../imports.sass'
+
 #contact
 	iframe
 		display: block
@@ -24,8 +26,8 @@
 
 	hr
 		display: block
-		width: calc(100% - 30px)
-		margin: 25px 0 25px 15px !important
+		width: 100%
+		margin: 25px 0 !important
 		border-color: #999 !important
 
 	form
@@ -37,9 +39,7 @@
 
 		.col-sm-3,
 		input[type="submit"]
-			// font-family: "Bebas"
-			letter-spacing: 1px
-			word-spacing: 3px
+			text-transform: uppercase
 
 		textarea
 			height: 150px
@@ -50,15 +50,27 @@
 
 			input[type="submit"]
 				padding: 10px
-				background: #7F913B
-				color: #000
-				border: none
-				outline: none
+				// background: #7F913B
+				// color: #000
+				// border: none
+				// outline: none
 				float: right !important
 				font-size: 1.5rem
 				letter-spacing: 1px
 				width: auto
 				text-transform: uppercase
+
+				+transition(all 0.3s)
+
+	.col-sm-3
+		@media (min-width: $screen-sm)
+			width: 25%
+
+	.col-sm-9
+		// padding-right: 0
+
+		@media (min-width: $screen-sm)
+			width: 75%
 
 	.glyphicon.glyphicon-asterisk
 		color: red
