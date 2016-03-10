@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   get '/why' => 'why#why'
   get '/outdoors' => 'how#how'
 
+  get '/wmt' => 'wmt#google8f996709dfeb05a4'
+
   put '/factboxes/:id' => 'application#update_factbox'
 
   # Example of regular route:
