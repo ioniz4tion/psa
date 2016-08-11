@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= requrie jquery.bxslider
+//= require three.min
 
 //= require_tree .
 

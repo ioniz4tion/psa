@@ -85,7 +85,7 @@ var earthMesh, Atmos, AtmosMat;
     //STARS
     var starGeo = new THREE.SphereGeometry (3000, 10, 100),
         starMat = new THREE.MeshBasicMaterial();
-    starMat.map = THREE.ImageUtils.loadTexture('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/star-field.png');
+    starMat.map = THREE.ImageUtils.loadTexture('/assets/star-field.png');
     starMat.side = THREE.BackSide;
                 
     var starMesh = new THREE.Mesh(starGeo, starMat);
